@@ -1,0 +1,615 @@
+Mas Sugeng Blog Berbagi pengalaman ngeblog Di bawah ini adalah tutorial lengkap dan nggak pake ribet cara mengganti subdomain .blogspot.com dengan domain sendiri atau dalam bahasa kerennya Custom Domain di Blogger. Kenapa harus pake domain sendiri, Mas? Sebenernya nggak masalah kalau alamat blog sobat menggunakan subdomain blogspot.com, tapi jika sobat ingin serius ngeblog, maka saya sangat merekomedasikan untuk menggunakan domain sendiri. Kenapa? Karena: Hal pertama yang perlu sobat lakukan untuk mengganti alamat blog sobat dengan domain sendiri adalah mendaftarkan nama domain di penyedia nama domain. Rumahweb.com adalah rekomendasi saya sebagai tempat mendaftar domain karena sudah sangat terpercaya. Domain pertama yang saya miliki yaitu mas-sugeng.com dan domain terbaru sugeng.id semuanya saya daftarkan di rumahweb.com. Gimana cara daftarnya, Mas? Langsung saya disimak di bawah ini: Langkah #1 – Masuk ke https://order.rumahweb.com Langkah #2 – Silakan sobat cek ketersediaan nama domain yang sobat inginkan  Keterangan: Langkah #3 – Jika domain tersedia, klik tombol “Pesan”  Langkah #4 – Klik aja “Lanjutkan”  Langkah #5 – Klik “Lanjutkan” lagi  Langkah #6 – Pada halaman selanjutnya sobat ditawarkan untuk menyewa Web Hosting, klik aja “Saya tidak membutuhkan hosting” karena di blogger cuma butuh domain aja.  Langkah #7 – Klik “Lanjutkan” aja lagi  Langkah #8 – Klik “Check Out”  Langkah #9 – Jika sobat baru menggunakan layanan rumahweb.com, silakan buat akun baru dengan mengklik “Buat Akun Baru.” Karena saya sudah punya akun di rumahweb, jadi cuma login aja.  Langkah #10 – Pilih metode pembayaran  Langkah #11 – Lakukan pembayaran Langkah #12 – Konfirmasi pembayaran Langakh #13 – Domain sudah sukses menjadi milik sobat. Kurang lebih seperti itulah proses mendaftar domain di rumahweb.com. Jika sobat merasa bingung dan nggak yakin, sobat bisa tanya langsung ke Customer Support rumahweb.com. Jika sobat sudah berhasil mendaftarkan nama domain, langkah berikutnya tentu saja memasangnya di blog agar domainnya bisa diakses. Langsung saja disimak langkah-langkahnya: Langkah #1 – Masuk dulu ke Dasbor blog sobat Langkah #2 – Masuk ke menu “Setelan” > “Dasar” setelah itu klik “+ Siapkan URL pihak ke-3 untuk blog Anda”  Langkah #3 – Masukan nama domain sobat (jangan lupa gunakan www) setelah itu klik “Simpan”  Langkah #4 – Sekarang di situ akan muncul peringatan Kesalahan. Jangan khawatir karena langkahnya masih belum selesai. Yang perlu sobat lakukan adalah mencatat 2 DNS Records yang ada di situ untuk kita pasang nanti pada pengaturan DNS domain.    Langkah #5 – Selanjutnya login ke http://clientzone.rumahweb.com untuk mengatur DNS domain. Langkah #6 – Masuk ke menu “Domains” > “List Domain Saya”  Langkah #7 – Klik “Kelola Domain”  Langkah #8 – Selanjutnya klik “Managed DNS”  Langkah #9 – Jika muncul pesan seperti ini klik aja “Start”
+ Langkah #10 – Jika muncul pesan seperti ini klik aja “Update”  Langkah #11 – Klik “Add New Record”  Langkah #12 – Pada langkah ini sobat perlu memasukan kode DNS Record yang sudah diberikan oleh blogger pada langkah #4. Biar mudah ikuti saja sesuai pada gambar di bawah:  Keterangan : Jika sudah, klik aja “Add Record” Sekarang kita perlu memasukan DNS Record yang kedua. Tinggal ulangi seperti gambar di atas:  Keterangan : Jika sudah, klik lagi tombol “Add Record” Langkah #13 – Setelah itu sobat masih perlu memasukan 4 DNS Records tambahan agar nanti domain blog sobat bisa diakses tanpa www. Biar mudah ikuti saja sesuai pada gambar di bawah:  Keterangan : Jika sudah, klik lagi tombol “Add Record” Selanjutnya tambahkan 3 DNS Records lagi seperti gambar di atas dengan memasukan IP or Hostname berikut ini: 216.239.34.21
+216.239.36.21
+216.239.38.21 Langkah #14 – Balik lagi ke Tab Setelan di blogger, setelah itu tinggal klik “Simpan”  Langkah #15 – Jika semua langkah di atas diikuti dengan benar, seharusnya domain sobat sudah sukses terpasang.  Langkah #16 – Supaya domainnya bisa diakses tanpa www, jangan lupa centang pada bagian “Alihkan namadomain.com ke www.namadomain.com“:  Langkah #17 – Selesai…… Begitulah kira-kira langkah-langkah dari mendaftar domain sampai memasangnya di blog. Jika sobat merasa pusing tujuh keliling, tinggal tanyakan aja lewat komentar. Tambahan : Jika domainnya belum bisa diakses, silakan tunggu maksimal 1×24 jam. Ditulis Mas Sugeng pada 31 Januari 2016 Bukan blogger pemula, tapi bukan juga seorang blogger master. Mas Sugeng hanyalah seorang pengangguran yang senang mempelajari hal-hal baru di Internet (sambil nyari duit). Suka dengan artikel di atas? nggak ada salahnya untuk berlangganan artikel terbaru dari blog ini langsung via email. 
+alif nur rohman mengatakan 1 Desember 2015 pada 16:41 gan lebih bagus rumah web atau qword?? 
+Mas Sugeng mengatakan 2 Desember 2015 pada 13:01 rumahweb.com 
+Munawir mengatakan 21 Februari 2016 pada 11:44 Kok DNS Records cuman 3 mas? Saya liat di tutorial yang lain ada 4, tambah 1 DNS Records lagi 216.239.32.21.. Bagusan yang mana mas? trus bedanya apa? mohon pencerahannya..!! 
+Mas Sugeng mengatakan 21 Februari 2016 pada 13:12 Memang ada empat. Baca dengan teliti. 
+ywangpfr mengatakan 25 Februari 2016 pada 16:14 Mas,itu pembayarannya via apa 
+alvian mengatakan 24 April 2016 pada 11:06 Niagahoster.com dengan Rumahweb.com bagus mana mas?
+terimakasih 
+Mas Sugeng mengatakan 24 April 2016 pada 20:41 Kalau untuk register domain lebih bagus di rumahweb.com 
+Saiful mengatakan 2 Desember 2015 pada 14:30 Berapa pa ya biaya utk beli domain di rumah web mas? 
+jalan seru mengatakan 13 Februari 2016 pada 11:33 murah kok pak untuk .com hanya 130rb aja 
+Bang Ali mengatakan 4 Desember 2015 pada 01:28 Menurut hemat saya juga demikian mas. Menggunakan domain sendiri itu selain lebih pendek, branded, eksklusif, lebih profesional, juga punya makna tersendiri. Kebetulan 2 domain saya www.kiatkiat.com dan www.pemasaranjaringan.com juga terdaftar di RumahWeb 1 tahun silam. Rencananya mau diperpanjang pertengahan Desember 2015 ini. Semoga teman2 blogger lain mulai berbenah agar selangkah lebih maju. Namun tetap saja subdomain pun akan berharga jika kontennya bermanfaat. Jabat erat (ala rumahweb) hehe.. 
+Muhammad Riaudi mengatakan 29 Februari 2016 pada 16:09 Mas, kalau domain nya di perpanjang harga nya bakal naik atau tetap sama seperti baru memasang domain nya ? Trus Rumahweb.com ini terpercaya gak? takutnya saya tertipu pas mau pembayaran nya . mohon dibalas ya . 
+Mas Sugeng mengatakan 3 Maret 2016 pada 17:49 Bisa naik dan juga bisa tetap. kalaupun naik, naiknya nggak bakalan banyak. Rumahweb sudah sangat terpercaya jadi nggak perlu khawatir. 
+Emi SC mengatakan 6 Desember 2015 pada 22:22 kalau ganti custom berarti di webmaster juga disubmit ulang yah mas? 
+Mas Sugeng mengatakan 7 Desember 2015 pada 20:06 Ya, submit ulang pakai domain yang baru. 
+Dion mengatakan 8 Desember 2015 pada 16:10 Mas Sugeng,
+Di rumah web kan byk pilihan space tuh, ada yg 10MB, 25MB dll.
+Kalo cuma untuk domain pilih yg mana ya? 
+Mas Sugeng mengatakan 8 Desember 2015 pada 16:15 Kalau cuma mau daftar domain nggak perlu milih space. Pilihan tersebut untuk hosting bukan domain. 
+mutiasalmakha mengatakan 9 Desember 2015 pada 18:47 aku udah coba sesuai langkah langkah disini, tapi gagal 🙁 kenapa ya.. 
+intifa.net mengatakan 11 Desember 2015 pada 10:20 maaf.. tolong jawab kawan.
+saya sudah melakukan langkah diatas, namun tidak bisa dan keluar kata di blog dashboardnya “Kami tidak dapat memverifikasi otoritas Anda untuk domain ini. Kesalahan 14”
+ada yang punya solusi? 
+Mas Sugeng mengatakan 11 Desember 2015 pada 21:40 Silakan ditunggu sekitar 24 jam setelah itu coba lagi. Biasanya karena domainnya masih dalam proses propagasi DNS. 
+Teguh mengatakan 13 Juli 2016 pada 11:17 ow gitu ya mas sugeng…. nih kasus sama seperti punya saya
+ok ane wait aja yah besok coba lagi deh
+makasih mas sugeng 
+Mukhamad Aristo mengatakan 12 Desember 2015 pada 08:06 Mas Sugeng, kalo proses penggantian domain sudah berhasil di butuh kan berapa jam agar domain baru bisa di akses ?? 
+Mas Sugeng mengatakan 12 Desember 2015 pada 13:22 Maksimal 24 jam. Tapi biasnya 1 sampai 2 jam saja sudah bisa diakses. 
+edy mengatakan 15 Desember 2015 pada 13:15 mantappp…terima kasih informasinya,,,sangat bermanfaat…bisa mempengaruhi page rank ga misal di ganti custom domain? 
+Aldi Ripani mengatakan 15 Desember 2015 pada 13:55 Sangkyuu udah ngasih info Mas Sugeng, ane harus nunggu 24 jam dulu kayaknya nih 😀 supaya bisa disimpan domainnya. 
+Rahmat mengatakan 22 Desember 2015 pada 09:07 Sebelumnya ttimakasih banyakn tutorialnya sangat membantu…saya sudah berhasil melakukan custom domain pada blog sy dan sudah mulai posting… sy coba cek web sy di pencarian google dgn mangetik site:www.tehnosia.com tidak ditemukan tp begitu sy ketik site:tehnosia.blogsopot.com baru dikenali…knapa ya mas…
+Mohon bantuannya …trims 
+Heri Zubaidi mengatakan 24 Desember 2015 pada 07:43 Selama siang.
+Mau tanya mas sugeng
+1. Saya punya sebuah blog yang menggunakan URL blogspot cuma hendak saya custom ke domain dot com, akan tetapi domain yang berekstensi blogspot itu belum saya daftarkan ke webmaster dan analytic, apakah untuk daftar ke webmastertool dan analytic itu harus menggukana domaian lama yang masih berekstensi blogspot atau menggukan domain custom tersebut,, mohon penjelasan dan pengarahannya,
+2. Sekedar saran dan masukan,,, di web mas sugeng kasih dong menu contac jadi pembaca setia bisa berinteraksi langsung dengan kang sugeng.
+3. Kalaw diijinkan jawaban atas pertanyaan saya ini bisa dijakiman postting di blog kang sugeng.id serta diberikan panduan langkah-langkahnya, karena mungkin selain saya ada temen-temen blogger lain yang belu mengerti.. terima kasih 
+Mas Sugeng mengatakan 24 Desember 2015 pada 18:50 1. Kalau custom domain baru harus disubmit ulang menggunakan alamat domain yang baru. Yang lama dibiarkan saja, nggak perlu dihapus ataupun diganti. 2. Sebelumnya memang saya menyediakan form kontak, cuma inbox yang masuk terlalu banyak, saya nggak punya banyak waktu untuk membalasa semuanya. Jadi untuk sementara saya hilangkan dulu. 3. Akan saya usahakan. 
+Masrukin mengatakan 27 Desember 2015 pada 08:39 Mas Sugeng mau nanya, namecheap sama rumahweb bagusan mana ya mas, mohon pencerahannya…. 
+Mas Sugeng mengatakan 27 Desember 2015 pada 11:18 Dua-duanya bagus dan terpercaya. 
+donny mengatakan 27 Desember 2015 pada 15:52 setelah ganti domain, apakah webmaster yg lama dihapus ? lalu daftar lg yang baru. 
+Mas Sugeng mengatakan 27 Desember 2015 pada 19:11 Nggak perlu dihapus, cukup daftarkan aja lagi alamat yang baru. 
+ian mengatakan 27 Desember 2015 pada 23:29 maaf mas nanya, saya kn mau pembayaran via atm.. yg dimaksud “ketikan berita diatas pada saat melakukan pembayaran” itu maksudnya apa ya? 
+Javas Corner mengatakan 31 Desember 2015 pada 12:58 Mas apa kalo saya pindah ke TLD saya harus setting ulang seperti submit ke google webmaster/bing?
+Makasih 
+Mas Sugeng mengatakan 31 Desember 2015 pada 20:21 harus submit ulang seperti blog baru. 
+Javas Corner mengatakan 31 Desember 2015 pada 13:07 Mas apa IP or HOSTNAME itu sama semua ya?,termasuk saya jika mau memasukkan ip or hostname jg pake angka2 tsb?
+Suwun…. 
+Mas Sugeng mengatakan 31 Desember 2015 pada 20:21 Nggak sama. Itu ada 4 IP. 216.239.32.21,
+216.239.34.21,
+216.239.36.21,
+dan
+216.239.38.21 
+uci mengatakan 17 April 2016 pada 12:23 Makasi ya mas sumpe membantu bangeeettt.. sukses terus yaa..<3 
+Javas Corner mengatakan 1 Januari 2016 pada 09:04 Mas Sugeng baru saja saya pindah dari blogspot ke TLD,namun saya coba cek url utama blog saya dg mengetikkannya di google kok tdk langsung masuk ke halaman utama blog pdhal dulu (blogspot) tdk seperti itu.
+Oh ya kliatannya dlm memasang ip or hostname kurang satu saya masukkan,
+Kira2 kalo saya coba setting ulang dlm memasang domain tld gimana ya mas?
+Suwun 
+Mas Sugeng mengatakan 1 Januari 2016 pada 18:32 Kalau pakai domain sendiri emang biasanya agak lama supaya bisa muncul di google. Disetting ulang nggak masalah. 
+Javas Corner mengatakan 1 Januari 2016 pada 16:30 Mas,bisakah saya mengulang setting pemasangan domain?
+Karena di pengelola dns hanya terlihat 2 kode ( mestinya kan 4 ya) dan ip or hosted jg cm 3 ( mestinya jg 4).
+Apa saya hapus dulu pengelola dns nya atau bagaimana? 
+Javas Corner mengatakan 3 Januari 2016 pada 17:47 Mas,apakah CNAME tiap blogger berbeda? Masalshnya kemarin saya lupa mencatat CNME saya waktu pemasangan domain Dan di dasboard google console pada kesalahan perayapan dikolom DNS terdapat tanda seru berwarna merah Saya baca infonya dikatakan bahwa googleboot tdk bisa merayapi url 
+Mas Sugeng mengatakan 3 Januari 2016 pada 18:31 Yang CNAME www semuanya sama, diarahkan ke ghs.google.com. Untuk CNAME yang kedua setiap blog beda-beda. 
+tedy mengatakan 4 Januari 2016 pada 04:56 mas kalu sudah ganti domain apa perlu si saftarkan lagi di webmaster dan yang domain blogspot di hapus 
+Mas Sugeng mengatakan 4 Januari 2016 pada 06:50 Didaftarkan lagi seperti blog baru 
+Prakoso Danoeadi Sewoyo mengatakan 4 Januari 2016 pada 19:43 Terima kasih bgt mah sangat membantu tutorialnya, saya sudah bisa memakai domain sendiri 
+Minecraftndns mengatakan 5 Januari 2016 pada 11:39 Mas sugeng maaf saya mau nanya nih, kan misalnya blog saya heloindo.blogspot.com saya beliin domain menjadi heloindo.com nah kan udah semua diterapin cara diatas dengan benar sampai selesai apakah yang awalnya alamat web saya .blogspot.com itu otomatis di alihkan menjadi nama domain dot com tadi?
+Makasih mas, tolong dijawab ya biar clear mas. Ato kirim E-mail ke saya aja jawabannya 
+Mas Sugeng mengatakan 9 Januari 2016 pada 00:54 Otomatis dialihkan. 
+Dede mengatakan 5 Januari 2016 pada 20:25 Makasih mas atas artikelnya, sangat membantu sekali. oh ya mas, saya pengen tanya gimana merubah www.domain.com menjadi domain.com saja ketika diketikan urlnya itu.
+kaya yang mas sugeng, munculnya enggak www.sugeng.id tapi sugeng.id saja
+makasih ya mas,,, 
+Mas Sugeng mengatakan 9 Januari 2016 pada 00:58 Kalau di blogger.com nggak bisa tanpa www. Harus pakai www atau menggunakan subdomain, seperti blog.sugeng.id atau mas.sugeng.id. Blog ini menggunakan WordPress jadi bisa tanpa www. 
+yayan mengatakan 7 Januari 2016 pada 21:55 kalo domainnya kita pake diblogger, kemudian suatu saat kita mau pindah ke wordpress (dengan domain yang sama), apakah melalui tahapan dan masalah kehilangan index google dan backlink mas?
+mas sugeng punya artikel mengenai migrasi blogger custom domain ke wordpress? thanks mas sugeng 
+Mas Sugeng mengatakan 9 Januari 2016 pada 00:48 Kalau pindah ke WordPress tanpa mengganti nama domain maka nggak bakalan ngefek apa-apa (kalau menggunakan cara yang benar). Cuma sayangnya saya belum punya panduannya. 
+Irvando Demas Arifiandani mengatakan 30 Agustus 2016 pada 06:56 mas sugeng. itu kan kalo dari blogger emang langsung domain tld ke wordpress memang tidak ada masalah.
+nah bagaimana kalo dulunya pake alamat blogspot disitu sudah ada backlink banyak nah kemudian diganti ke domain tld apa perlu backlink ulang ? kalo di sistem blogger kan hanya di redirect kan dari alamat blogspot ke tld. kalo itu berlaku untuk backlink ke domain tld berarti itu hanya bersifat sementara dong ? karna hanya redirect. 
+PERDANA mengatakan 8 Januari 2016 pada 02:10 mas saya mau tanya
+saya sudah berhasil beralih website dari blogspot ke [dot]com
+tetapi masalahnya ketika diakses melalui www[dot]namadomai[dot]com maupun melalui namadomain[dot]blogspot[dot]com yang muncul malah halaman kosong
+apakah kita perlu membuat halaman baru di penyedia hosting kita??? mohon bantuannya
+terimakasih 
+yayan mengatakan 8 Januari 2016 pada 06:20 untuk memasang ke blogger-nya. kayanya kurang satu step kalo buat orang yang pertama kali beli custom domain. dari pengalaman saya praktekin cara mas sugeng di atas, domainnya gak mau disimpen di setelan blogger walau sudah ditunggu lama.
+setelah saya contact livechat rumahweb-nya, ternyata ada satu step yang kurang. yaitu terakhir, kembali ke halaman “manage DNS” lalu klik button “update” di bagian atas.
+demikian semoga membantu sobat yang menghadapi masalah yang sama. terimakasih 
+Mas Sugeng mengatakan 9 Januari 2016 pada 00:44 Terima kasih atas informasinya. Sepertinya saya kurang teliti. 
+Ali Akbar mengatakan 10 Januari 2016 pada 16:55 Maaf mas sugeng, saya sudah ikuti step by step tutorial diatas tp tetap g bisa mas,, pesan error.y “Kami tidak dapat memverifikasi otoritas Anda untuk domain ini. Kesalahan 14.” mungkin bisa kasi pencerahan sedikit mas! 
+Mas Sugeng mengatakan 10 Januari 2016 pada 17:11 Silakan ditunggu sekitar 24 jam setelah itu coba lagi. Biasanya karena domainnya masih dalam proses propagasi DNS. 
+Indonesian mengatakan 8 Juni 2016 pada 08:30 kemarin Saya baru saja daftar domain di Rumah Web juga mas dan sukses. walaupun sempat terjadi error 14, namun saya langsung menghubungi CS-nya langsung ditanggapi dengan ramah dan cepat. Ternyata saya kemarin harus menunggu sekitar 5 jam supaya error 14 hilang. terima kasih atas rekomendasinya mas sugeng.. 🙂 
+Mas Sugeng mengatakan 12 Juni 2016 pada 19:48 Sama-sama. 
+erni mengatakan 11 Januari 2016 pada 07:47 gmn carany biar ga keliatan www kyak blog mas sugeng ini, blog sy wktu d akses www ny masih ada. trims 
+Mas Sugeng mengatakan 11 Januari 2016 pada 18:49 Kalau di blogger.com nggak bisa tanpa www. Harus pakai www atau menggunakan subdomain, seperti blog.sugeng.id atau mas.sugeng.id. Blog ini menggunakan WordPress jadi bisa tanpa www. 
+ivanwira mengatakan 11 Januari 2016 pada 15:48 maaf mas mau nanya, itu setelah ksih masuk IP/ hostname yang pertama kan disuruh ulangi lagi sampe 3 kali, itu maksudnya diulangi mulai dari langkah awal lagi ya ? 
+Mas Sugeng mengatakan 11 Januari 2016 pada 16:24 Ulangi pada bagian DNS Zone Records 
+anoref mengatakan 12 Januari 2016 pada 08:07 Maaf mas sugeng…kalo sitemap domain lama perlu dihapus ngga? Sy tkt ada hubungannya dngn blog sy yg akhir-akhir ini tidak bsa diakses dngn browser tertentu (url tidak ditemukan).Trims 
+Mas Sugeng mengatakan 13 Januari 2016 pada 14:43 Nggak perlu dihapus 
+Irvan Jaya mengatakan 13 Januari 2016 pada 03:55 Mantap Nih Mas !! Lumayan nih artikel bisa langsung dimengerti walaupun dalam prakteknya saya masih dibantu ama cs-nya setidaknya dengan artikel ini minggu lalu hambatan-nya ngak sebanyak pas saya nyoba idhostinger 😀 
+Kezia Lanita mengatakan 13 Januari 2016 pada 07:59 Terima kasih, Mas Sugeng. Sangat jelas dan membantu. 
+kholis mengatakan 13 Januari 2016 pada 11:54 numpang tanya mas, saya sudah mengikuti tutorial diatas, juga sudah konfirmasi pembayaran domain, kalau sudah saya terapkan/ pengaturan pda blog, apakah nama blog lama (blogspot) yang ada pada HTML template harus diganti dg domain baru atau bagaimana? 
+Mas Sugeng mengatakan 13 Januari 2016 pada 15:00 Lebih baik diganti, tapi kalaupun nggak diganti nggak masalah. 
+kholis mengatakan 18 Januari 2016 pada 08:07 satu pertanyaan lagi mas. setelah custom domain kemudian saya cek di webmaster, ternyata ada kesalahan hilang updated pada artikel dan itu banyak lebih kurang 20,, bagaimana cara mengatasinya mas? 
+dodi setiadi mengatakan 16 Januari 2016 pada 20:43 Ternyata ada setingan yang diberikan ya mas dari penyedia domain..? waktu itu sy seting sendiri pake TLD dan berhasil tetapi beberapa minggu kemudian blog saya tidak bisa diakses sama sekali gara-gara sy tidak konfirmasi email penggantian nameserver dari penyedia domain… hehe…share pengalaman aja mas… 
+Arif rif mengatakan 18 Januari 2016 pada 21:06 Mas sugeng yang terhormat,misal sya sudah membuat domain com di rumahweb. Misal www.madrasahmedia.web.id, dan sya ingin merubah dengan url www.madrasahoke.web.id. pertayaannya apakah bisa dilakukan perubahan tersebut? 
+Mas Sugeng mengatakan 19 Januari 2016 pada 08:10 Bisa, cuma nggak bagus kalau gonta-ganti domain kayak gitu. 
+ardy mengatakan 18 Januari 2016 pada 22:42 thanks gan, akhirnya sukses. 😀
+Serius deh akhirnya kelola blog.. 
+surya mengatakan 23 Januari 2016 pada 11:28 Mas saya punya 2 pertanyaan..
+1. Jika ingin menampilkan iklan dari google adsense kan web yg kita miliki tdk boleh gratisan ya. Q punya blog, terus misalnya saya beli domain jadi .com apa bisa itu blog q yg sdh .com untuk menampilkan iklan dari google adsense? sedangkan saya kan cuma beli domain saja. tidak beli hostingnya 2. Jika saya beli domain itu dengan .my.id atau pilihan lainya kecuali .com, .net, .org, .id, .co.id. Blog yg q belikan domain dengan .my.id itu apa juga bisa untuk menampilkan iklan dari adsense? Mohon bantunannya. Terimakasih. Bagus daftar adsense tahap demi tahap 
+Mas Sugeng mengatakan 24 Januari 2016 pada 21:02 1. Tergantung bikin blognya dimana, kalau bikin di blogger.com terus pakai domain sendiri maka bisa didaftarkan ke AdSense. 2. Bisa 
+Jelajah mengatakan 23 Januari 2016 pada 20:07 Sip langsung berhasil di aplikasikan ke domain dot TOP yang murah meriah heheee.. Terima kasih banyak Mas Sugeng 🙂 
+Aan mengatakan 25 Januari 2016 pada 09:54 Mas Sugeng saya sudah ikuti step by stepnya..sangat jelas dan mudah dipahami dan diikuti. Pas yg di blogger saya save ndak langsung sukses ternyata. Baca-baca komen, Anda bilang ada yg musti nunggu 24 Jam. Nah pertanyaan saya, waktu nunggu ini apa blog boleh logout Mas? 
+Mas Sugeng mengatakan 25 Januari 2016 pada 11:22 boleh 
+rudy mengatakan 27 Januari 2016 pada 20:47 mas kl beli domain di rumahweb.. IP nya pasti 4 itu ? 
+Mas Sugeng mengatakan 27 Januari 2016 pada 21:08 Beli domain di mana aja pakai 4 IP itu tersebut. 
+alfin apriyanto mengatakan 31 Januari 2016 pada 13:15 matur suon mas, trimakasih banget , artikelnya bermanfaat banget , skali lagi trimakasih mas 
+Cara Terbaru mengatakan 31 Januari 2016 pada 14:25 terimakasih mas artikelnya sangat membantu, karena dijelaskan secara detail sehingga mudah dimengerti. Ijin bookmark buat persiapan blog selanjutnya mas 
+Dravide mengatakan 31 Januari 2016 pada 16:10 bisa langsung toh? biasanya saya pake ClouDNS dulu. 😀 
+Mas Bayu mengatakan 31 Januari 2016 pada 19:23 Mas, Saya mau nanya kan sudah saya pasang pas itu apakah backlink akan ilang ? saya habis ganti domain dari blogspot ke com apakah ilang backlinknya ? yang dari blogspot, 
+Mas Sugeng mengatakan 31 Januari 2016 pada 20:23 Nggak hilang. backlinknya akan dialihkan ke alamat yang baru. 
+Mas Bayu mengatakan 31 Januari 2016 pada 21:48 oh makasih ya mas (Y) 
+Defi Purnama mengatakan 1 Februari 2016 pada 07:56 Tutorialnya lengkap banget mas. Ini bisa jadi rekomendasi buat saya pindah ke custom domain nih mas. Terima kasih ya mas. Jadi nggak perlu pusing-pusing lagi cari tutorial yang lengkap 🙂 
+imam prayogo mengatakan 1 Februari 2016 pada 09:49 selamat pagi mas Sugeng.artikelnya bermanfaat.saya mau tanya untuk pembuatan blog yang sebelum beli domain sendiri baikny pakai apa mas.terimakasih 
+Mas Sugeng mengatakan 1 Februari 2016 pada 23:20 Maksudnya gimana ya? saya kurang mudeng dengan pertanyaannya. 
+Hendrik mengatakan 10 Maret 2016 pada 02:25 Mungkin maksudnya pake wordpress apa blogspot mas. 
+NYAMUKKURUS mengatakan 1 Februari 2016 pada 21:47 Makasih mas sugeng, tutorial nya sangat bermanfaat 🙂 
+samsury mengatakan 1 Februari 2016 pada 22:10 Kebetulan saya juga beli domainnya di rumah web..selain udah terpercaya juga masih satu area dengan saya yaitu di yogyakarta 
+dian marshalls mengatakan 2 Februari 2016 pada 04:07 ane sih pengen pakek mas yg my.id / web.id tapi payment rekening kan? sdngkan sy gak punya rekening (bahkan satu keluarga gak ada yang punya) ada solusi ndak mas? 
+Mas Sugeng mengatakan 2 Februari 2016 pada 10:57 Nggak perlu punya rekening bank. Bisa langsung datang ke Bank terus bilang sama satpam kalau mau setor tunai. 
+Mas Bayu mengatakan 2 Februari 2016 pada 04:46 Saya mau tanya lagi mas, kan dari situs rumah web apa ada lagi situs yang jualan domain mas ? 
+Mas Sugeng mengatakan 2 Februari 2016 pada 10:56 Banyak banget. 
+Mas Bayu mengatakan 2 Februari 2016 pada 14:42 contohnya dong mas maaf yah ngerepotin 😀 
+Mas Sugeng mengatakan 2 Februari 2016 pada 16:02 Masuk ke google.com terus masukan kata kunci “jual domain” klik tombol cari. 
+Mas Bayu mengatakan 2 Februari 2016 pada 16:34 ok mas makasih yah sudah respon soalnya saya newbie gk tau apa apa hikss 😀 
+Putuberbagi mengatakan 2 Februari 2016 pada 07:40 Mas Sugeng, bikin tutorial cara membeli hosting di rumahweb dong. 
+Maszgalang mengatakan 2 Februari 2016 pada 08:37 mas klo cara pasang https di bblogspot dengan kostum domain bisa gak mas ..? 
+Mas Sugeng mengatakan 2 Februari 2016 pada 10:55 Bisa pakai Cloudflare. 
+Deni mengatakan 2 Februari 2016 pada 08:57 untuk blogger bisa tidak nama domainnya tidak di sertankan www. contoh namadomain.id bukan www.namadomain.id 
+Mas Sugeng mengatakan 2 Februari 2016 pada 10:56 Tidak bisa. 
+Deni mengatakan 4 Februari 2016 pada 19:36 manurut mas sugeng sendiri lebih bagus pakai www atau tidak 
+Mas Sugeng mengatakan 7 Februari 2016 pada 20:06 Lebih bagus tanpa www. 
+Dimas mengatakan 2 Februari 2016 pada 12:34 Kalo udah punya uang saya mau beli domain sendiri. Tapi kalo beli domain takutnya di tahun-tahun berikutnya engga kebayar dan takut expire. Kira2 gmna solusinya mas? 
+Mas Sugeng mengatakan 2 Februari 2016 pada 13:51 Kalau bisa bayar koneksi internet pasti bisa bayar domain. Domain setahun paling cuma 120ribu. Kalau dihitung perbulan cuma sekitar 10ribu doang. 
+john mengatakan 2 Februari 2016 pada 20:35 saya juga sudah ada beberapa domain di rumah web, dan mungkin mau tambah lagi nanti kalau ada ide lain. 
+MantapZone mengatakan 2 Februari 2016 pada 20:38 Pengen buat wordpress gan 
+Munawir mengatakan 2 Februari 2016 pada 23:24 Mas masih bingung nih langkah selanjutnya setelah ganti domain. Domain barunya sudah saya submit di google dan bing webmaster tool. Nah pertanyaan saya, jika membuat postingan baru apakah harus saya submit ke properti domain baru saja ataukah saya submit ke kedua properti pada webmaster tools yang lama dg yang baru? 
+Mas Sugeng mengatakan 2 Februari 2016 pada 23:29 Cukup ke domain yang baru saja. Alamat blog yang lama nggak perlu diapa-apain lagi. 
+wondhoez mengatakan 3 Februari 2016 pada 11:06 mas, Kalo padanya kita daftar domain dan hosting dot id, kemudian karena hosting terlalu kecil, sehingga ada prubahan. jadi domain akan di pake untuk blogspot dan hosting hanya untuk emailnya aja, kira kira bisa gak mas kalo seperti itu. 
+Mas Sugeng mengatakan 7 Februari 2016 pada 19:59 Bisa pastinya. 
+riosharing mengatakan 3 Februari 2016 pada 04:10 Tutorialnya bagus mas kebetulan saya lagi butuh domain lokal. Oh iya payment kalo di rumahweb gimana ya mas? 
+Erna mengatakan 3 Februari 2016 pada 08:49 Terimakasih penjelasannya mas Sugeng, trs masih bingung nich nanti trafiknya turun gak ya ketika berubah menjadi domain baru ? 
+Mas Sugeng mengatakan 7 Februari 2016 pada 19:58 Bisa turun beberapa hari tapi kemungkinan bakalan balik normal lagi. 
+Contohlah mengatakan 3 Februari 2016 pada 16:23 mas sugeng, setiap posting komentarnya selalu banyak banget, keren nih blognya, padahal tutorial serupa sudah banyak, tapi tetep ga bosen liat postingannya, keep posting gans, 
+Raka Setiawan mengatakan 3 Februari 2016 pada 17:52 Mas sugeng, kalo misalkan blog (di blogspot) sudah memakai domain .tk , mau diganti lagi ke .com , apakah harus menghapus yang domain .tk nya? Terimakasih 
+Mas Sugeng mengatakan 7 Februari 2016 pada 20:03 Ya harus dihapus domain yang lama. 
+Wawan Purwanto Sirait mengatakan 3 Februari 2016 pada 22:53 Halo Mas Sugeng. Saya sudah melakukan langkah-langkah yang dibimbing dari mas sugeng. luar biasa lengkap, detail, dan akurat.
+Saat ini Akun saya sudah pake Dot.com
+bisa di cek di www.nuliskeliling.com terima kasih Mas Sugeng. semoga ilmu yang diberikan jadi pahala buat mas Sugeng. Amin 🙂 
+Mas Sugeng mengatakan 7 Februari 2016 pada 20:03 Sama-sama. Terima kasih banyak atas doanya. 
+Mutamam Blog mengatakan 3 Februari 2016 pada 23:34 Pengen coba pakai Rumahweb, suadah pake domain .com tapi saya lewat Namecheap. Setelah melihat tutorial ini jadi pengen mencoba lagi yang lain. 
+Agus Supriyono mengatakan 4 Februari 2016 pada 14:17 betul mas, saya tadinya juga kebanyakan mikir buat beli domain sendiri, eh setelah beli, jadi pengin beli domain 5 sekalian, karena memang lebih baik dibandingkan dengan blog gratisan. Yang serius ngeblog memang disarankan belli domain 
+zulfi izzulhaq mengatakan 4 Februari 2016 pada 14:41 pengen ganti TLD, tapi belom ada duit 
+Fiqih Rahmat mengatakan 4 Februari 2016 pada 15:16 Salah satu kelebihan pakai Domain sendiri adalah saat pindah ke WordPress kita tidak kehilangan pengunjung, ini seru mas, di tunggu tips nya . 
+Rizal Aditiyo Supendi mengatakan 4 Februari 2016 pada 16:10 wah, keren nih.. harganya murah-murah lagi..
+nanti kalo udah cairan dari blog, beli ah 😀 
+Ridho Azlam mengatakan 4 Februari 2016 pada 16:21 saya sudah ikuti , pas di sesi terakhir , langkah 16. blogger tetap tidak verifiakasi dibawah kotak domain, ada tulisan merah ini :
+Kami tidak dapat memverifikasi otoritas Anda untuk domain ini. Kesalahan 12. 
+Mas Sugeng mengatakan 7 Februari 2016 pada 20:05 Coba ditunggu sekitar 24 jam, setelah itu coba lagi. 
+I Gusti Lanang Gede Putra Astawa mengatakan 4 Februari 2016 pada 20:54 Makasih Mas tutorianya. Keren… Saya bisa berganti domain .net dengan tutorial yang mas berikan.. 
+ilmair mengatakan 4 Februari 2016 pada 21:06 Wah tutorialnya lengkap bgt plus mas bro ini interaktif bgt sama pengunjung blognya.. mantaps.. kebetulan sya baru aja beli domain.. masih newbie dan belajar banyak 
+Wesley mengatakan 5 Februari 2016 pada 12:32 Mas Sugeng. Buat artikel tutorial tentang cara setting W3 Total Cache dong 🙂 
+umar mengatakan 5 Februari 2016 pada 21:46 mas,kalau vps bagus nya di rumah web atau di DigitalOcean? 
+Mas Sugeng mengatakan 7 Februari 2016 pada 20:08 DigitalOcean lah udah pasti. 
+muhayatur mengatakan 6 Februari 2016 pada 07:30 Klo ane pake namecheap mas 
+Daniel mengatakan 6 Februari 2016 pada 11:53 Langkah demi langkah komplit ya mas sugeng, saya baru 2 mengcustom blog menjadi TLD, emang pas banget tuh alasannya. Selain semangat bertambah, kita makin serius urus blog, apalagi buat ngembangin blog jadi lahan bisnis. KAlau blog WP baru belajar bikin 1 itupun hasil belajar di AB dalam sebulan ini. Salut ama mas sugeng, sekarang udah gabungin blognya menjadi 1 jadi lebih konsisten blogging. PAtut ditiru caranya mas 
+Stread mengatakan 6 Februari 2016 pada 15:42 Asik akhirnya berhasil juga kustom domain ke Com, makasih atas infonya mas Sugeng, saya membuat kustom dari tutorial ini, sukses selalu.. 
+Pristian mengatakan 6 Februari 2016 pada 19:06 kalau tips visitor down habis ganti domain dari .com ke .net mas? soalnya domain saya yang .com expired. 
+Irsan mengatakan 7 Februari 2016 pada 19:31 mau tanya mas sugeng sy ganti domain TLD ke blogspot, untuk .com berhasil, tp untuk .co selalu gagal terus ( error 14, kl .com biasanya error 12 ), apa domain .co tidak bisa dipindah ya ke blogspot ya?
+terima kasih 
+Mas Sugeng mengatakan 7 Februari 2016 pada 19:52 Saya belum pernah coba pakai .co jadi kurang tahu. Tapi kayaknya sih semua domain bisa dipasang di blogspot. 
+mas toyo mengatakan 9 Februari 2016 pada 23:14 setelah sempat notfound eror 404 yang membuat pusing ternyata dari penjelasan masugeng udah benar semua yang salah dari blognya sajah yang tadinya udah di cutom dari blogspot.co.id jadi blogspot.com ternyata mesti dihapus scrip redaireknya. Thaks Mas Sugeng atas info yang diberikannya sangat bagus dan membantu. 
+Rezky mengatakan 11 Februari 2016 pada 20:58 mas kenapa setelah diganti .com malah situs tidak dapat ditemukan? mohon pencerahannya 
+info lowongan baru mengatakan 13 Februari 2016 pada 11:35 coba pak kontak costomer support tempat anda beli domain .com anda, kemungkinan lagi ada masalah di sana 
+Ibnuhajar Nurdin mengatakan 13 Februari 2016 pada 19:16 lain dah ok tapi langkah 16 tak nampak 
+Muhrid Online mengatakan 13 Februari 2016 pada 21:38 Newbie..
+Mas Sugeng,, Saya baru belajar buat blog, saya sudah daftar domain sendiri, dan konfigurasinya di blogger sudah berhasil di alihkan ke www.namadomain.com . tapi pas di buka www.namadomain.com tapi kok kosong ya ga ada postingan blog saya sebelum nya, gmana solusinya, makasih 
+Mas Sugeng mengatakan 13 Februari 2016 pada 22:12 Sudah dilakukan langkah nomor 16 apa belum? 
+Muhrid Online mengatakan 13 Februari 2016 pada 22:39 iya sudah mas,,, tapi masih tetap tidak bisa muncul,, coba deh mas buka situs nya : www.muhridonline.com 
+Mas Sugeng mengatakan 13 Februari 2016 pada 22:58 Coba ditunggu sekitar 24 jam. Biasanya karena masih dalam proses propagasi DNS. 
+Febriyan mengatakan 15 Februari 2016 pada 14:00 Mas, tanya dong. kalau kode dns yang secret itu gak kecatat dan skrg harus map ulang gimana ya cara dptnya lagi? 
+Mas Sugeng mengatakan 15 Februari 2016 pada 23:13 Kalau domainnya sudah terhubung ke blogger kayaknya nggak perlu pasang kode DNS secret lagi. Tapi kalau nanti error pasti bakalan muncul lagi kodenya pada setelan domain di blogger. 
+Victorio mengatakan 17 Februari 2016 pada 23:30 Like this mas! Sukses bikin domain karena ngikutin semua langkahnya.. Blog nya membantu, karena sebelumnya daftar .com di blogspot langsung bisa, enta kenapa setelah expired kok ga ada pilihannya. langsung nemu blog ini, langsung praktek dan berhasil makasih ya … 
+Mas Sugeng mengatakan 19 Februari 2016 pada 11:12 Sama-sama 
+agus mengatakan 19 Februari 2016 pada 09:36 Sampai langkah 15 tidak bisa disimpan. ada solusi mas… 
+BPS mengatakan 20 Februari 2016 pada 20:25 Terima kasih sudah mau berbagi. salam kenal ya mas sugeng 
+Wawan Lagi mengatakan 20 Februari 2016 pada 20:28 Saya udah pake cara ini untuk kedua kalinya. saya bookmark blog mas sugeng biar gampang buat liat panduannya. makasih mas sugeng hehehe 
+Melly mengatakan 23 Februari 2016 pada 19:03 Postingannya sangat bermanfaat, dan jelas. Membuat pengunjungnya cepat paham, apalagi saya sbg pemula. Trms Mas Sugeng 🙂 (y) 
+ywangpfr mengatakan 25 Februari 2016 pada 16:15 Mas kalo mau beli domain tapi blm ada saldo cart gimana? Itu pwmbayaran via apa? 
+Asep mengatakan 29 Februari 2016 pada 13:55 itu bisa via transfer bank mas,, online chat sama adminnya aja langsung. nanti dikasih nomor rekeningnya.. 
+Pusat Jersey Bola mengatakan 27 Februari 2016 pada 15:26 Joosss Berhasil mas
+Terima kasih atas tutorialnya, lengkap banget tanpa eror juga 😀
+Tapi kok domain nya belum bisa di akses ya? 
+Mas Sugeng mengatakan 3 Maret 2016 pada 17:40 harus ditunggu 24 jam sampai bisa diakses sepenuhnya. 
+kiki mengatakan 28 Februari 2016 pada 09:03 Yeay! akhirnya saya punya domain sendiri. ikutin step step nya Mas Sugeng ni.. Makasih sharingnya mas, salam kenal 🙂 
+Asep mengatakan 29 Februari 2016 pada 13:53 mas saya sudah punya domain dan sudah mengganti diblog saya juga semua trik yg mas bicarakan diatas sudah saya lakukan,, dan pas mau tampilkan blog tidak bisa,,
+dan saya masuk rumahweb trus kelola ada peringatan kaya ini..
+PERINGATAN: Domain dalam Status Unlocked!
+Disarankan mengaktifkan Registrar Lock demi keamanan. apa yang harus saya lakukan selanjutnya,, mohon pencerahannya,, terimakasih 
+Mas Sugeng mengatakan 3 Maret 2016 pada 17:47 PERINGATAN: Domain dalam Status Unlocked! itu berarti domainnya tidak terkunci dan bisa dipindahkan ke Registar/Penyedia nama domain yang lain. Dibiarkan aja juga nggak masalah. 
+rian putra mengatakan 2 Maret 2016 pada 23:42 selamat malam mas sugeng. Terima kasih atas info y sengat membantu dan bermanfaat buat saya.
+saya banyak belajar dari blog mas sugeng.
+Mohon petunjuk nya mas.
+untuk mengalihkan subdomain lama ke domain baru.
+Apakah harus mengonfirmasi Perubahan Alamat situs lama ke situs baru di webmaster atau tidak perlu.
+sekian mas sugeng saya berharap komentar saya bisa di terima dan di balas mas sugeng. 
+Mas Sugeng mengatakan 3 Maret 2016 pada 18:48 Untuk subdomain tidak bisa mengirim konfirmasi Perubahan Alamat. Meskipun tanpa mengonfirmasi Perubahan Alamat nggak masalah, yang penting subdomainnya dialihkan ke alamat yang baru. 
+Saya mengatakan 4 Maret 2016 pada 09:23 mas, kalau redirect dari .com ke .net bisa nggak ?? 
+Mas Sugeng mengatakan 4 Maret 2016 pada 10:28 Bisa 
+Aldin Darmawan mengatakan 5 Maret 2016 pada 04:51 Mas saya sudah berhasil memasang domain: domain.com tapi setelah di pasang pas di buka “ERROR
+The requested URL could not be retrieved” itu knpa ya mas? domain sudah terpasang dengan benar pengalihan domain.com ke www.domain.com juga sudah tapi apa yg salah ya ? 
+Mas Sugeng mengatakan 7 Maret 2016 pada 11:27 Ditunggu 24 jam 
+fathan mengatakan 6 Maret 2016 pada 12:46 abang sugeng kalau kita mau ganti domain blogspot ke domain id lewat idwebhost gimana ya 
+irga bima mengatakan 7 Maret 2016 pada 12:33 kalo pake custom domain apakah subdomain dari blogger masih bisa dipake? 
+Mas Sugeng mengatakan 7 Maret 2016 pada 21:56 Subdomain-nya otomatis dialihkan ke alamat yang baru 
+Darwin mengatakan 7 Maret 2016 pada 16:11 Hallo gan! jika sudah melakukan konfigurasi domain seperti di atas! jika belum bisa dipasangkan ke blog berarti harus menunggu 1×24 Jam yah? 
+Mas Sugeng mengatakan 7 Maret 2016 pada 21:55 Bener 
+Fuad Fauzi mengatakan 7 Maret 2016 pada 16:56 mas sugeng: langkah ke 13 itu diulang2 terus masukin ip hostname nya apa cuma sekali? ..thanks 
+Mas Sugeng mengatakan 7 Maret 2016 pada 21:54 Diulang 
+Tumarno mengatakan 7 Maret 2016 pada 19:39 Gan. Kalau settingan DNS untuk domain dari GBFREEHOSTING.COM gmna gan, sudah otak atik tetep gak bisa konek ke blogapot 
+Lalu Razieb Ariaharfi mengatakan 8 Maret 2016 pada 07:53 Saya baru pake domain .id yang kebetulan sedang ada promo. Tapi tahun depan siap konsekuensi bayar 500 ribuan. Uh, mahal ya mas? Boleh tanya keuntungan domain .id yang mas sugeng tahu itu apa aja? hehe
+Salam kenal, Mas. 
+Mas Sugeng mengatakan 9 Maret 2016 pada 00:03 Yang saya tahu domainnya jadi pendek dan keren aja mas hehe.. 
+Suyana Smart mengatakan 8 Maret 2016 pada 22:36 saya mau tanya, kalau nama domainnya harus sama dengan yang di blogspot atau tidak?
+misal: jagung.blogspot.com
+domainnya jagung.com atau bisa domain lain misal jadi rajajagung.com? terimakasih,,, 
+Mas Sugeng mengatakan 8 Maret 2016 pada 23:45 Nggak harus sama alias bebas. 
+Dodik mengatakan 9 Maret 2016 pada 13:51 Halo Mas Sugeng.. Pada langkah ke #12 pada add record domain diisi dengan “www” kan ya? Dan pada pengisian record kedua pada domain diisikan jcu5hmh52pqi. Semua langkah sudah saya ikuti tetapi keterangannya masih “Kami tidak dapat memverifikasi otoritas Anda untuk domain ini. Kesalahan 12.” 
+Mas Sugeng mengatakan 16 Maret 2016 pada 22:26 Ditunggu 24jam, setelah itu coba lagi. 
+kang el mengatakan 9 Maret 2016 pada 19:13 mas sugeng yg ganteng ane mau tanya nih…3 mata saja 1. klo domain blog up jdi TLD apakah perlu pasang skrip redirect di tamplate blog?
+2. saya pengen coba up ke TLD karena ingin daftar adsense stelah sebelumnya slalau ditolak apakah ada kmungkinan besar diterima adsense klo up TLD?
+3. solanya saya udah gusar dengan blog yg udah trafficnya 12k/hari tpi nggak ada pemasukan sama sekali..nah klo diganti jdi TLD traffic akan hilangkah? matur suwon. 
+Mas Sugeng mengatakan 16 Maret 2016 pada 22:30 1. Ngggak perlu
+2. Sama aja, masalah diterima atau tidak bukan cuma karena faktor domain.
+3. Nggak akan hilang, cuma mungkin akan mengalami sedikit penurunan. 
+Hendrik mengatakan 10 Maret 2016 pada 02:32 Artikelnya bkin sya mulai semangat lagi ngeblog.
+Mau tanya mas sugeng, saya punya blog d wordpress dan jga d blogspot, tpi yg wordpress sdh lma tdk d aktifkan dan sy alihkan ke blogspot.
+Kira2 misalkan sya mau beli domain untuk kelola blog yg di wordpress apakah kita besa merubah pengaturan templateny atau hanya domain yg brubah..? 
+Mas Sugeng mengatakan 16 Maret 2016 pada 22:32 Mohon maaf saya agak bingung dengan pertanyaannya. 
+karimun jawa mengatakan 10 Maret 2016 pada 11:19 mas sugeng.. membuat anah panah dan angka2 seperti gambar tutorial yg mas pasang pake software apa? makasih untuk theme evomags nya… boleh dong web saya taroh di showcase 🙂 
+Mas Sugeng mengatakan 16 Maret 2016 pada 22:34 Pakai software screenpresso 
+wijaya mengatakan 11 Maret 2016 pada 22:23 web saya sudah aktif makasih mas 🙂 
+Mas Sugeng mengatakan 12 Maret 2016 pada 21:11 Mantab 
+tehmanis mengatakan 12 Maret 2016 pada 13:51 Mas Sugeng, jika ingin nanya-nanya mengenai pembelian dari blogspot ke dot com, ada cp ga?
+dan berapa biaya nya? 
+Hendry Anggriawan mengatakan 14 Maret 2016 pada 14:05 Mas boleh minta turitorial untuk cara membuat kolom komentar seperti blog anda tidak ? 
+Mas Sugeng mengatakan 16 Maret 2016 pada 22:50 Mohon maag belum bisa. 
+kudel mengatakan 15 Maret 2016 pada 02:25 mas, pas save dari setting bloger ko domain barunya ga muncul kaya no 15 ? harus nunggu dulu apa gimana mas ? 
+Mas Sugeng mengatakan 16 Maret 2016 pada 22:51 Ya, ditunggu dulu sekitar beberapa jam. 
+Muhamad Ramadhan mengatakan 15 Maret 2016 pada 14:10 mas sugeng apa yang akan terjadi pada .blogspot jika pindah ke domain lain. apa data pada website kita tidak akan hilang?? dan bisa beralih ke blogspot lagi?? 
+Mas Sugeng mengatakan 16 Maret 2016 pada 22:25 Nggak akan hilang, bisa balik ke blogspot lagi. 
+Abdul Qodir mengatakan 15 Maret 2016 pada 20:15 Mas. Maaf mau tanya Kalau tahun depan tidak di perpanjang domainy, balik lg ke blogspot.com atau gmn? 
+Mas Sugeng mengatakan 16 Maret 2016 pada 22:21 Blognya nggak bisa diakses. Domainnya harus dicopot dulu dari settingan blogger. Setelah dicopot nanti alamatnya jadi blogspot.com lagi. 
+MCS_snifer mengatakan 18 Maret 2016 pada 09:38 Domain Anda belum terdaftar di sistem DNS kami, untuk memulai klik tombol “START” kok muncul sprti ini mas sugeng The following errors occurred:
+Internal Error 
+Mas Sugeng mengatakan 18 Maret 2016 pada 21:13 Mohon maaf saya kurang tahu penyebabnya. 
+abdul mengatakan 18 Maret 2016 pada 14:26 mas kalo name server nsid1.rumahweb.com itu ga perlu diotak-atik? 
+Mas Sugeng mengatakan 18 Maret 2016 pada 20:23 nda perlu 
+Hendrik mengatakan 18 Maret 2016 pada 16:52 Mas, sy sudh ikuti langkah2 nya dan semuanya sdh sy teliti dan benar. Tapi msh blum trpsng juga. Kira2 mslahnya dmna mas. Mohon pncerahannya.mksh 
+kudel mengatakan 19 Maret 2016 pada 01:16 mantap mas,sekarang sudah berhasil dipasang.terima kasih mas atas informasinya,sungguh buat saya artikel mas sugeng sangat bermanfaat. 
+syarif alfarisi mengatakan 21 Maret 2016 pada 01:39 mas sugeng sy mau nanya dunk, sy ingin sekali punya akun google adsense, tp web sy msh pake yg gratisan yaitu blogspot.com, nah apakah bisa jika mendaftar google adsense dengan menggunakan blogspot.com (web gratisan), jika bisa bagaimana caranya mas? mohon bantuannya karna sy ingin sekali mempunyai akun google adsense,, terima kasih 
+Kanjeng mengatakan 24 Maret 2016 pada 00:51 Mas, mohon petunjuknya mas. Saya sudah bisa terpasang di blos saya tapi kok domainnya belum bisa terbuka mas. Masih problem page trus mas.. Mohon infonya mas ya… 
+Kans Gemilang mengatakan 24 Maret 2016 pada 16:41 Mas Sugeng , Salam…
+Mau tanya ya, Saya mau ganti domain blog ke TLD , Blog saya saat ini sudah terdaftar dibeberapa affiliate internet online, nah apabila saya mengganti domain sendiri nantinya , apakah affiliate online tadi perlu di daftar ulang , atau akan mengikuti dengan domain yang baru ?
+Terima kasih atas bantuannya
+Salam….. 
+Ilham mengatakan 27 Maret 2016 pada 20:11 Maksih Banyak gan 100% Work buat ane hehe
+ne dari awalnya vgameshop.blogspot.com jadi www.vgameshop.net 
+Blog-Magz mengatakan 27 Maret 2016 pada 23:18 Wah .. ganti domain yah mas.. Murah ya ternyata cuma Rp.15.000, tapi ane masih pake gratisan hehe. Mas, mau tanya dalam beberapa bulan ke depan domain blogspot akan ganti ke googleblog yah. Soalnya ane nemu di situs forum blog dunia mas dan akhirnya ane posting di blog ane gan wkwkw.
+http://blog-magz.blogspot.com/2016/03/domain-blogspot-akan-berubah-menjadi.html 
+Channabeck mengatakan 28 Maret 2016 pada 00:18 Masalah domain, Mas katanya Blogspot akan ganti domain jadi googleblog katanya biar identik kalau itu buatan google mas. Kalau mas mau baca monggo hehe. Sambil nilai blog ane bagus gak wkwkw. Artikelnya ga copas mas nulis pake hati wkwk http://blog-magz.blogspot.co.id/2016/03/ini-saatnyadomain-blogspot-beralih-ke-domain-googleblog.html 
+Heze Turbo mengatakan 30 Maret 2016 pada 16:44 Mas Sugeng, kalau pasang web di Rumahweb bisa untuk pasang Adense nggak? Karena nggak semua situs domain bisa dipasang adsense.. Kalau nggak support adsense, di tampilan web g muncul iklannya. 
+dian hendrianto mengatakan 1 April 2016 pada 16:59 kalo mau perpanjang terus harganya pas diskon, itu termasuk yg diskon apa yg tetap ya mas? 
+Mas Sugeng mengatakan 3 April 2016 pada 19:57 Kalau diskon biasanya cuma tahun pertama aja, kalau perpanjangan nggak mungkin ada diskonnya. 
+Dadan mengatakan 2 April 2016 pada 01:59 Makasih gan atas infonya sangat membantu bagi saya yang masih awam 
+Deddy Romnan mengatakan 2 April 2016 pada 13:04 blog saya sudah custom domain mas. tapi ada satu masalah : “artikel blog saya ga muncul di pencarian google” pencerahan mas biar blog saya ga kayak kuburan 
+niam mengatakan 3 April 2016 pada 08:21 mas, kok gak bisa tampil ya meski domainnya sudah berubah
+www.lukiluck.com’s server DNS address could not be found.
+apa butuh waktu? 
+Mas Sugeng mengatakan 3 April 2016 pada 19:50 Sudah bisa. 
+Anwar Ichsanuddin mengatakan 3 April 2016 pada 16:09 Alhamdulillah bisa mas. Penjelasannya lebih jelas dibanding penjelasannya rumah web. Makasih Mas Sugeng. 
+Najla Alliya mengatakan 6 April 2016 pada 13:58 akhir april nanti kan ada perubahan mas, dari http menjadi https,
+apakah itu akan merubah setting custom domain ya? 
+Mas Sugeng mengatakan 7 April 2016 pada 22:19 Kemungkinan nggak berpengaruh ke custom domain. 
+arionsense mengatakan 7 April 2016 pada 16:10 Terimakasih mas… sangat membantu…
+Kesampaian punya custom domain 
+arionsense mengatakan 7 April 2016 pada 18:12 Selamat sore mas sugeng….
+Kebetulan saat merubah jadi cusom domain blog saya sedang dalam review adsense. Sebelumnya didaftarkan langsung dari blogspot.
+Yang saya tanyakan kalau menggunakan custom domain dan tetap menggunakan hosting blogspot, pengaruh ke akun adsense ga?
+dalam kasus ini adsesnse saya akun hosted atau nonhosted? Sebelumnya saya ucapkan banyak terimakasih untuk jawabannya 
+Mas Sugeng mengatakan 7 April 2016 pada 22:12 Mohon maaf saya nggak bisa jawab soalnya belum pernah coba 
+Andi hermanto mengatakan 7 April 2016 pada 19:24 suwon Mas ,artikelx muantab,gini Mas Kan blogger April akhir ini Ada maw perubahan http menjdi https,sa maw nanya apakah perubahan ini perpengaruh sama domain yg rencana Saya maw beli,jgn Sampai perubahan ini domain.com bisa berubah jadi blogspot.com.Trs gini apa bagus Mas kalau maw buat blog baru langsung beli domain,….makasi ya Mas atas perhatiannya… 
+Mas Sugeng mengatakan 7 April 2016 pada 22:13 Saya kurang tahu, tapi kayaknya nggak perpengaruh untuk yang menggunakan custom domain. kalau bikin blog di blogspot memang lebih bagus langsung custom domain. 
+ramdan mengatakan 8 April 2016 pada 10:17 mas sugeng, ane kan punya blog http://wayberkah.blogspot.co.id/ , blog itu udah dapet sitelinks dari google, terus ane pengen ganti domainnya, apakah sitelinksnya akan hilang 
+Mas Sugeng mengatakan 8 April 2016 pada 18:56 Ilang, tapi nanti kemungkinan besar bakalan balik lagi. 
+Syaiful Anam mengatakan 8 April 2016 pada 15:29 Nah ini yang dicari, biar gak berart2in hosting jadi pakai hosting google aja. xixixi 
+Eda wardani mengatakan 9 April 2016 pada 16:19 Mas saya kok g bs pakay record type A , karena katanyaaa saya udah pakai CNAME jd failed pakai record Type A,,, untuk masukin IP or hostnamenya, bs dibantu itu knpa ya mas 
+Eda wardani mengatakan 9 April 2016 pada 16:29 Mas sugeng makasih banyak
+Ternyata saya yg tidak detail baca petunjuuknyaa skrg udah bisaaa makasih yaaa 
+Pilihanku mengatakan 11 April 2016 pada 16:19 Tambahan keterangan biar lebih detail
+Langkah #9 – Jika muncul pesan seperti ini klik aja “Start” Klik “start” nya dua kali (setelah klik star awal bakal muncul klik star kedua) lalu muncul update. lanjutin deh.. (register tanggal 11 april 2016, pake cara mas sugeng ini) thanks mas. mohon di kunjungi domain baru saya. hehe 
+Leli nikita mengatakan 11 April 2016 pada 16:34 Makasih mas udah berbagi. saya udah coostum domain barusan 
+yopy mengatakan 14 April 2016 pada 22:51 mau nanya mas blog saya baru di ganti domain kok gak nggak bisa di akses malah redirek kesitus aneh 
+Mas Sugeng mengatakan 16 April 2016 pada 19:21 Ditunggu maksimal 24jam. 
+Berita Aceh mengatakan 15 April 2016 pada 23:12 Muncul kesalahan 14 saat meng-custom domain, mohon bantuannya mas sugeng 
+Mas Sugeng mengatakan 16 April 2016 pada 19:19 Ditunggu 24 jam setelah itu coba lagi. 
+rangga pamungkas mengatakan 17 April 2016 pada 15:45 Mas, nanya nih. Ada rencana sih, buat ganti domaian.
+Blog kan dibuat sekitar 2 bln an , terus udah ada beberapa artikel dan inner linknya di setiap blog. Pertanyaanya..
+1. Apakah setelah ganti domaian, setiap artikel harus di sumbit di google consule ?
+2. Terus inner link yang ada di setiap artikel apakah di sesuaikan dengan domain yang baru ?
+3. Misal rencana mau daftar GA, sebaiknya sebelum ganti domaian apa masih blogspot.co.id
+Terimakasih untuk jawabannya 
+Mas Sugeng mengatakan 19 April 2016 pada 12:15 1. Nggak perlu, cuma domain utamanya aja yang disubmit ulang.
+2. Otomatis dialihkan ke alamat yang baru. Tapi kalau linknya diedit menggunakan alamat yang baru lebih bagus.
+3. Setelah ganti domain. 
+rangga pamungkas mengatakan 19 April 2016 pada 13:47 Alhamdulillah langsung lancar…order domain langsung bisa mengudara. 
+Rangga Pamungkas mengatakan 20 April 2016 pada 14:04 Mas, mau nanya lagi ni. Setelah custom domain. Saya nyoba posting artikel. Dengan label yang sudah ada sebelumnya misal mobil. Pada waktu di publish yang muncul dihalaman awal, cuma yang barusan di publish, artikel yang lain munculnya di halaman page no 2.
+Lalu ketika saya pilih label mobil yang keluar, cuma artikel yang saya posting setelah custome domaian..Mohon bimbingan nya mas, sugeng.
+Terima kasih 
+Mas Sugeng mengatakan 20 April 2016 pada 20:49 Mohon maaf saya kurang tahu penyebabnya. 
+Yohafian mengatakan 17 April 2016 pada 19:09 Halo mas sugeng
+saya sudah coba menerapkan cara diatas
+pada bagian save domain di blogger
+kenapa error ya mas ? 
+Mas Sugeng mengatakan 19 April 2016 pada 12:16 Ditunggu 24 jam setelah itu coba lagi. 
+As'ari mengatakan 19 April 2016 pada 22:02 Mas Sugeng ! Mohon bantuannya, mengapa blogspot saya setelah diganti ke com. kok cuma loding saja 
+Slamet mengatakan 20 April 2016 pada 21:48 Mas Sugeng, untuk mengisi DNS Record yang kedua pada kolom domain yang mas ngisi menggunakan kode “jcu5hmh52pqi” itu ngambil kodenya dari mana yah mas? dari tadi tek coba eror terus.
+mohon pencerahan hehehe,,, 
+Dzkry mengatakan 21 April 2016 pada 03:17 Selain .com rekomendasi untuk platform blogger apa lagi ya mas? bebaskah? 
+Mas Sugeng mengatakan 21 April 2016 pada 11:18 bebas, sesuai selera sendiri. 
+Toriq mengatakan 21 April 2016 pada 14:03 Siang mas sugeng, mau tanya nih saya baru aja ganti domain dari blogspot ke .com , sekitar 3 hari yang lalu, saya setting prefered domain supaya terlihat namadomain.com tanpa www di google search, sudah saya setting di Webmaster tools tapi belum ada perubahan dalam 3 hari, solusinya gimana nih mas sugeng? makasih 
+Mas Sugeng mengatakan 21 April 2016 pada 15:59 Kalau di blogspot nggak bisa tanpa www. harus pakai www. Untuk setting prefered domain lebih baik diganti aja jadi www.namadomain.com 
+Sobi Mardiyas mengatakan 21 April 2016 pada 16:22 Oke sudah berhasil mas sugeng… sama persis seperti langkah-langkah yang mas ajarkan. terimakasih atas bimbingannya. 
+Tatang Tox mengatakan 24 April 2016 pada 14:07 Wah terima kasih banyak Mas Sugeng. Tutorialnya joss. Dan kebetulan saya juga menggunakan Rumah Web, jadi sangat membantu sekali. Saya baca caranya dari Google nya langsung malah bingung. Giliran pake langkah2 dari Mas Sugeng langsung lancar jaya…  
+Alvian mengatakan 25 April 2016 pada 11:35 Maaf Mas Sugeng.
+Punya saya kok tidak bisa ya?
+Padahal langkah-langkahnya sudah sama persis sama tutorial di atas.
+Apa Salah ketika memasukan Alamat IP itu ya mas? 
+Ephy mengatakan 25 April 2016 pada 11:41 Mau tanya mas, tapi mungkin sedikit melenceng. 1. Misal saya punya www.domain.com, tapi Saya ganti domain utama tsb menjadi misal blog.domain.com, apa pengaruhnya di Google? 2. Saya baca-baca laman Google, disitu disebutkan untuk ganti alamat situs sebaiknya gunakan pengalihan 301, tapi Saya bingung letaknya dimana? catatan : Saya menggunakan hosting gratis blogger.com 
+budianto budi mengatakan 27 April 2016 pada 16:52 keren abis nich blog….tutorial dikupas abis…gk setengah2…memang jagoan nich msa sugeng…thanks mas…
+mau order template khusus buat pribadi bisa mas ???? 
+iwan H mengatakan 30 April 2016 pada 23:08 Mas ,saya tidak mempunya Credit card,cara pembayarannya gimana ? 
+Mas Sugeng mengatakan 30 April 2016 pada 23:25 Nggak perlu pakai kartu kredit mas. Bisa lewat transfer bank. 
+robby pramana mengatakan 2 Mei 2016 pada 15:15 om..saya sudah daftar domain di rumah web.
+dari tanggal 28 april 2016, jawabnya masih Propagasi Custom domain.
+Untuk settingan sudah benar om.
+Sudah 2 kali jawabnya begitu terus, baru tadi pagi jam 10 pagi saya tanya lagi..
+Jawabnya katanya template blogspot saya terlalu berat om..
+padahal templatenya punya om sugeng loh ( premium )…dari ukuran templatenya juga kecil banget om..
+otomatis saya sudah nunggu 4 hari nich om… untuk propagasi..
+ini report Whois Namecheap om ( untuk ane mengeecek om ) h-ttps://www.namecheap.com/domains/whois/results.aspx?domain=www.sawarnahidup.com 
+Ilham Hamdani mengatakan 3 Mei 2016 pada 17:28 Maaf mas Sugeng, saya mau nanya!
+Kalo pengaturan domain baru+hosting itu sama dengan yang di atas atau ada tambahan yang lain?
+Mohon arahannya mas. Makasih infonya (sangat bermanfaat) Sukses terus buat mas Sugeng. Aamin
+Salam kenal by Ilham Hamdani 
+Mas Sugeng mengatakan 9 Mei 2016 pada 12:01 Kalau itu beda lagi. Di blogspot cuma butuh domain aja. 
+Mojok Riau mengatakan 3 Mei 2016 pada 17:38 mas, kok nameserver yang dikirim ke email beda dengan nameserver default nya ?? default (nsid1) , yg di email (ns1) . kok gak ada “id” nya ?
+q telpon ke bagian teknis, katanya udah sukses n gak ada masalah . q lihat disini malah gak ada langkah pada nameserver. balassss, 
+Ilham Hamdani mengatakan 3 Mei 2016 pada 19:25 Terimkasih banyak untuk infonya mas Sugeng. Alhamdulillah Domain saya sudah succes dan bisa langsung diakses. Tapi saya mau bertanya, boleh?
+Saya tadi siang membeli domai baru+dengan hostingnya. Nah, untuk pengaturan hostingnya gimana ya mas? Apakah ada lagi yang mesti diatur atau sudah secara otomatis bekerja sendiri?
+Mohon arahannya mas! Sekali lagi terimakasih banyak untuk infonya. Semoga mas Sugeng semakin sukses dan bisa tetap terus berbagi ilmu dengan kita semua. Aamin Salam kenal by Ilham Hamdani 
+Mas Sugeng mengatakan 9 Mei 2016 pada 12:04 Untuk blog di blogspot tidak perlu menggunakan hosting karena hostingnya sudah menggunakan server milik google. Yang dibutuhkan cuma nama domain saja. 
+Riyan mengatakan 5 Mei 2016 pada 03:16 Terimakasih tutorialnya mas sugeng. tadi baru saja beli domain di rumahweb dan sukses sesuai tutorial yang mas sugeng berikan…salam sukses 
+Blog Kontenxyz mengatakan 5 Mei 2016 pada 10:08 sepertinya untuk custom domain dari rumahweb ke blogspot cukup ribet ya dibandingkan dengan namecheap! 😀 
+Mas Sugeng mengatakan 9 Mei 2016 pada 11:58 Sedikit lebih ribet. 
+dimas mengatakan 6 Mei 2016 pada 00:12 saya coba kok belum berhasil mas,apa ada yang salah pada waktu saya praktekan 
+Eboy Sitorus mengatakan 7 Mei 2016 pada 15:14 Numpang nanya mas .Saya sudah membeli domain, Dan menerapkan ke blog saya, tetapi pada saat mengalihkan ke domain baru saya Ternyata Tidak Bisa , Katanya “Server Not Found”
+Mohon Bantuannya Mas 
+Asyfi Alanzhour mengatakan 7 Mei 2016 pada 22:26 mas mau tanya. saya kan baru beli domain di rumahweb.
+lalu saya sudah ikuti semua cara yang diatas dan berhasil
+TAPI ada masalah sedikit. ketika saya tidak menggunakan WWW di domain saya, domainya tidak mau terbuka, alasanya Alamat DNS server domain.com tidak dapat ditemukan. Tapi saat saya menggunakan www.domain.com baru bisa kebuka.
+saya juga sudah ceklis tanda Alihkan domain.com ke www.domain.com tapi juga tidak bisa.
+Tolong bantu saya menyelesaikan masalah ini 
+Angga mengatakan 10 Mei 2016 pada 18:16 gampang juga ngikutin tutorialnya mas sugeng. terimakasih mas,
+untuk setting lanjutannya harus bagaimana lagi biar tambah capcus mas. Mohon pencerahan dari suhu.. suwun. 
+dodo mengatakan 12 Mei 2016 pada 17:52 mas saya udah masukin 4 nomor record 216.239.32.21, 34,36,dan 38 tapi kok masih ada form lagi ya….karena udah pusing ya aq close aja. gmna ya mas itu solusinya? maturnuwun 
+Mas Sugeng mengatakan 14 Mei 2016 pada 11:45 Kalau sudah dimasukin semua diclose aja nggak masalah. 
+Newbie 4Real mengatakan 14 Mei 2016 pada 17:14 Wah ternyata lumayan ribet juga yah. Pas pertama kali ngeblog, saya iseng langsung ganti ke .com lewat blogger (tanpa penyedia domain) dengan harapan bisa gratis hahaha. Ternyata kek gini toh..
+Thx mas sugeng (komen pertama dan kunjungan pertama) 😀 
+donnie mengatakan 16 Mei 2016 pada 10:47 mas sugeng saya ikuti semua panduan nya mantap dan jelas
+terima kasih…….
+tapi ada bagian kok ga muncul di setingan ya seperti
+Langkah #16 – Supaya domainnya bisa diakses tanpa www, jangan lupa centang pada bagian “Alihkan namadomain.com ke www.namadomain.com“:
+ini contohnya http://prntscr.com/b4jqxv
+gimana cara memunculkannya…..makasih…. 
+Mas Sugeng mengatakan 16 Mei 2016 pada 11:16 Itu fitur terbaru dari blogger, nggak bisa diaktifkan untuk blog yang menggunakan domain sendiri. 
+andry mengatakan 17 Mei 2016 pada 22:26 Artikel yg bermanfaat 🙂 Maaf gan mau nanya nih. Sya punya blog, tp belum daftar Google Adsense, rencananya mau bikin domain dulu di rumahweb, baru setelah itu daftar Google Adsense. Kira2 bisa berhasil ga verifikasi Google Adsense nya? Thanks. 
+Mas Sugeng mengatakan 18 Mei 2016 pada 01:20 Bisa berhasil bisa nggak. Masalah nama domain kayaknya nggak begitu banyak pengaruhnya. 
+andry mengatakan 19 Mei 2016 pada 11:29 Ok, thanks Gan infonya.
+Smoga smakin sukses dunia bloggingnya. 
+Samadikun mengatakan 19 Mei 2016 pada 12:43 Terimakasih mas Sugeng, baru saja sy praktek sesuai langkah2nya mas sugeng, dan Alhamdulillah berhasil. ini buktinya www.mas-sam.com 
+Rihan mengatakan 20 Mei 2016 pada 09:38 1. Saya udah pernah berhasil pakai custom domain 2. Saya gak sengaja reset DNS di cpanel dan gak catet kodenya 3. Saya setting ulang tapi sampai langkah #4 gak muncul error, langsung kesave gitu aja Gimana caranya saya bisa dapetin kodenya lagi? Apa butuh waktu yang lama? Udah lebih dari 3 hari ini. Mohon jawabannya mas. 
+Mas Sugeng mengatakan 27 Mei 2016 pada 11:29 Kalau sudah kesave berarti sudah berhasil. Cukup pasang CNAME ghs.google.com saja. 
+Cipto N mengatakan 22 Mei 2016 pada 16:16 Mas setelah berhasil mengganti Domain, kenapa alamantya tidak bisa di akses ? kira-kiranya ada kesalahan dimana ? mohon balasannya. terimakasih. 
+Mas Sugeng mengatakan 27 Mei 2016 pada 11:22 Ditunggu dulu sekitar 24 jam. 
+muh amin amal mengatakan 22 Mei 2016 pada 23:51 permisi
+kan ada 6 record yang di input di managed DNS
+Kmren pas setting cuman 5 yang ke input dan udh terlajur save setting basic blogger
+ngk masalah kalau settingan DNS nya di edit lagi dengan yang baru?
+mohon pencerahannya mas Sugeng 
+Mas Sugeng mengatakan 27 Mei 2016 pada 11:22 Diedit lagi nggak masalah mas. 
+E mengatakan 24 Mei 2016 pada 16:01 Mas website saya kan sudah saya custom seperti tutorial diatas sekitar 1 bulan yg lalu dan sudah berhasil.
+Kira* perlu di daftar’in ke adsense lagi gak ya,?? Cz yg dari blogspot masih dalam tahap review.
+Thanks 
+Mas Sugeng mengatakan 27 Mei 2016 pada 11:19 Harus daftar ulang pakai alamat yang baru. 
+Deva Junio mengatakan 24 Mei 2016 pada 21:48 Selamat malam, Mas sugeng, untuk nama di custom domain apakah ada pengaruhnya nama blog kita dipersingkat dari xxxxxxxx.blogspot.com menjadi www.xxx.com ? jawaban mas sugeng sangat saya hargai , terima kasih 
+Mas Sugeng mengatakan 27 Mei 2016 pada 11:18 Nggak ada pengaruhnya. 
+Dicky Khusnaedy mengatakan 26 Mei 2016 pada 15:01 Mas, saya mau nanya, bagusan rumahweb.com atau IDwebhost.com? 
+Mas Sugeng mengatakan 27 Mei 2016 pada 11:08 Rumahweb dong 
+Riks mengatakan 31 Mei 2016 pada 20:29 Kalau kita nggak perpanjang efek sampingnya apa mas sugeng?. Apakah dari dot com kembali lagi ke blogspot.com atau blog kita akan hilang? 
+Mas Sugeng mengatakan 1 Juni 2016 pada 08:29 Blognya nggak hilang, cuma nanti blognya nggak bisa diakses. 
+Fit mengatakan 1 Juni 2016 pada 13:51 Mas
+mau tanya donk, saya menggunakan wordpress, nah jika saya beli nama domain di rumah web, lalu apakah gratis mengubah nama domain tersebut jika saya gunakan di wordpress ? 
+Mas Sugeng mengatakan 5 Juni 2016 pada 22:33 Kalau mau ganti nama domain berarti harus register ulang dan harus bayar lagi. 
+Kang Aksan Blog mengatakan 2 Juni 2016 pada 11:49 keren, tutorialnya detail sekali gan
+ijin coba dengan cara ini 
+jujun mengatakan 4 Juni 2016 pada 20:01 Wah berhasil euy, makasih mas tutorialnya membantu 
+Mita mengatakan 6 Juni 2016 pada 15:57 Terimakaish kak bagus banget masih tahap belajar nulis. Keep writing Kak. ^^ 
+Alexandromeo L.G mengatakan 7 Juni 2016 pada 12:20 Mas Sugeng, mau nanya. Dulu nama situsnya mas Sugeng apa ya ? 
+Mas Sugeng mengatakan 12 Juni 2016 pada 19:42 Maksudnya nama blog ini dulu? Awalnya http://sugeng4.blogspot.com terus saya ganti jadi mas-sugeng.com, terakhir sudah jadi sugeng.id 
+Alexandromeo L.G mengatakan 7 Juni 2016 pada 12:25 Mas Sugeng, mau nanya. Dulu nama situsnya mas Sugeng apa ya ? Kalo misal ganti domain dari yang gratisan ke TLD (nama.blogspot.com ke nama.com) itu nanti situs yang gratisan akan hilang atau tidak ? Misal, saya punya situs namanya situssaya.blogspot.com, lalu saya menyewa domain menjadi situssaya.com. Nanti kalo misal ada orang yang mengetik situssaya.blogspot.com di google, akan redirect ke situssaya.com atau tidak ? Terima kasih Mas Sugeng 
+Mas Sugeng mengatakan 12 Juni 2016 pada 19:45 Alamat yang lama akan otomatis dialihkan ke alamat yang baru. 
+deska mengatakan 8 Juni 2016 pada 00:46 mas, saya butuh pencerahan saya sudah bisa pasang domain dan sudah bisa dibuka 1×24 jam seperti yang mas tulis, tapi barusan saya buka kok aada tulisan “www.sumbbu.com’s server DNS address could not be found.”?? mohon pencerahannya mas sugeng, terima kasih banyak atas blog blognya yang sangat membantu… 
+Mas Sugeng mengatakan 12 Juni 2016 pada 19:46 Sekarang sudah bisa diakses. 
+Deva Junio mengatakan 8 Juni 2016 pada 11:46 Mas, saya sudah buat dan ikuti sesuai petunjuk di atas namun masih tidak bisa di simpan untuk domain pihak ke tiga, apakah saya harus buat ulang untuk managed DNS-nya ? mohon informasi salam 
+Mas Sugeng mengatakan 12 Juni 2016 pada 19:49 Biasanya harus ditunggu dulu sekitar 24 jam sampai domainnya bisa disimpan. 
+BukuGuru.com mengatakan 8 Juni 2016 pada 21:22 maaf mas, itu jenis header mas pake font apa ya? 
+Mas Sugeng mengatakan 12 Juni 2016 pada 19:54 Pakai font ini : http://www.dafont.com/poetsen-one.font 
+Yudi mengatakan 9 Juni 2016 pada 01:02 artikelnya sangat membantu sekali, mas Sugeng mau nanya dong, jika web kita tidak pake domain sendiri apakah tidak ada bedanya dengan yang sudah pake domain sendiri? misalnya kita mau kerjasama dengan google Adsense apakah tidak bermasalah dengan tidak menggunakan domain sendiri? terimakasih. 
+Gung Eka mengatakan 9 Juni 2016 pada 09:29 Selamat pagi.
+Tutorial yang bermanfaat. Saya mau tanya.
+Untuk menghilangkan halaman konfirmasi Redirect Blogspot, bagaimana ya Mas?
+Karena jika user mengakses web saya menggunakan link blogspot, masih muncul halaman konfirmasi untuk di-direct ke link baru. 
+Mas Sugeng mengatakan 12 Juni 2016 pada 21:29 Untuk halaman konfirmasi Redirect kalau nggak salah cuma muncul di awal-awal aja. Nanti kalau sudah agak lama halaman konfirmasi Redirect-nya bakalan nggak ada lagi. 
+ismun j mengatakan 9 Juni 2016 pada 16:25 mas sugeng , mau tanya ni penting bgt , mohon bantuannya : saya dah menjalankan langkah seperti yg di atas yg memakai blogspot tak ganti .com , di rumah web … kendala saya : 1. kadang tanpa www.sudah bisa masuk web ,, 2. tapi kadang tetep error 404 google ,, kalo setingannya mau buat kaya punya anda sugeng.id … gimana settingan di managemn DNS & di Blogspot nya , mohon pencerahan makasih … 
+Umroh Desember mengatakan 10 Juni 2016 pada 01:55 Mas Sugeng trims banget ya, tutorial nya jelas banget, mudah di ikutin, saya bener-bener ucapin terima kasih dari sugeng.id ane banyak belajar, klo lg ngoprek ini jadi rujukan saya 
+Lista mengatakan 10 Juni 2016 pada 06:49 Mas sugeng,perknlkn nama sy lista,kbtuln sy suka menulis,dan yg saya mau tanyakan,alamat blog sy yg sekarang kepitingonline86.blogspot.com dan setelah baca artikel dr mas sugeng sy ingin bergnti domain, nah yang saya tanyakan,bisa kah alamat blog saya itu tidak pakai 86,dan jadi kepitingonline.com 86 tidak sy ikutkan,apakah berpengaruh biat blog sy atau gmn mas?mohon jwbnya 
+Mas Sugeng mengatakan 12 Juni 2016 pada 21:33 Nggak masalah sama sekali, yang penting domain kepitingonline.com masih tersedia untuk didaftarkan. 
+sofyanto mengatakan 10 Juni 2016 pada 20:55 Mohon pencerahan, apa sih DNS itu dan apa manfaatnya ? 
+Luthfi mengatakan 13 Juni 2016 pada 22:08 Maaf mas Sugeng, barusan saya order domain di rumahweb, trus saya mencoba lakukan langkah-langkah di atas, namun tidak berhasil. Lalu saya mencoba mengulangi kembali step-step di atas dan saya mendelete dns recordnya,,namun ketika saya ulangi, kode yang ada di langkah Keempat kenapa tidak muncul lagi? Mohon bantuannya,,terima kasih 
+Mas Sugeng mengatakan 16 Juni 2016 pada 13:39 Kalau tidak muncul lagi berarti domainnya sudah sukses terpasang. Saya cek tadi domainnya sudah bisa diakses. 
+SUPIADI mengatakan 17 Juni 2016 pada 21:13 mau tanya mas,sebelumnya nama situs saya domain blogspot,saya beli domain www.xxx.com,kenapa pada tidak muncul lg iklan googlenya,apakah nunggu beberapa hari setelah proses perpindahan domain tersebut atau memang tidak bisa pada domain com atau bagaimana,sebenarnya scrift iklan ini punya teman minta pasangkan pada blog saya,mohon solusinya MAS,caranya agar bisa muncul lg iklannya 
+Mas Sugeng mengatakan 17 Juni 2016 pada 22:55 Mohon maaf mas saya sendiri kurang tahu, tapi kayaknya akun AdSensenya harus diupgrade jadi non-hosted supaya iklannya muncul di domain yang baru. 
+Benydiktus Baloari mengatakan 18 Juni 2016 pada 17:01 Trimakasih atas tutorialnya, dan saya sudah membeli hosting dirumahweb. Berikut akan saya lakukan langkah selanjutnya (semoga tidak ada kendala). Yang ingin saya tanyakan, apakah domain blogspot.com (yang lama) masih dapat diakses oleh pengunjung? 
+Mas Sugeng mengatakan 18 Juni 2016 pada 17:48 masih 
+arif rahman mengatakan 19 Juni 2016 pada 23:59 mas sugeng saya sudah ikuti semua langkah tapi di tahap akhir klik simpan di bagian setelan dasar gak bisa mas
+domain saya www.ariashop.top 
+DiFa mengatakan 20 Juni 2016 pada 04:29 Maaf, bagaimana cara memperpanjang domain-nya Mas?
+Terima kasih 
+Go Nusa Penida mengatakan 21 Juni 2016 pada 13:38 Maaf mas Sugeng, saya rencana menganti ke domain.com juga, tp masih bingung memilih penyedia domain.
+Mana bagusan antara RumahWeb dengan JagoanHosting? 
+Mas Sugeng mengatakan 29 Juni 2016 pada 22:07 Rumahweb 
+Miko mengatakan 21 Juni 2016 pada 13:44 Saya baru beli domain di IDwebhost, tapi ternyata domain tersebut sudah bekas dipakai orang yang sebelumnya sudah expired.  Saya mau tautkan ke blogger tapi gak bisa karena domain katanya masih nyantol di blogspot orang yang dulu. Jadi bagaimana cara agar bisa dipakai itu domain? Terimakasih Mas, mohon bantuanya. 
+Mas Sugeng mengatakan 29 Juni 2016 pada 22:09 Dulu saya juga pernah mengalami hal tersebut, saya kurang tahu solusinya. 
+Kelvin Satya mengatakan 22 Juni 2016 pada 11:39 Mas kalo sudah saya pasang ke blog yg lama tiba tiba kenak block gugel gmn? Apakah bisa di pindahkan domain ny ke blog baru? Di jawab ya penting banget ni terima kasih soalny ntr malam udh mau pasang 
+Mas Sugeng mengatakan 29 Juni 2016 pada 22:14 Bisa 
+Deni Saputro mengatakan 22 Juni 2016 pada 20:38 Hallo mas sugeng, jika kita memakai wordpress apakah perlu juga memverifikasi domain di google webmaster dengan “penyedia layanan domain”? 
+Mas Sugeng mengatakan 29 Juni 2016 pada 22:15 Harus verifikasi juga. Nggak harus dengan “penyedia layanan domain” bisa juga pakai kode meta tag. 
+Ihan Sunrise mengatakan 23 Juni 2016 pada 13:57 Halo Mas Sugeng, artikelnya sangat membantu, kemarin saya baru beli domain, hari ini langsung ikutin step by stepnya dan alhamdulillah berhasil….. 
+Gugum mengatakan 24 Juni 2016 pada 14:32 Mas kenapa ya pada saat langkah #12 bagian DNS Record yang kedua, ko gak bisa-bisa ya “This site can’t be reached” terus. Tapi kalau langkah tersebut dilewati dulu, masukin yang langkah #13 semua bisa. Jadi semua langkah diatas bisa, kecuali yang langkah #12 bagian DNS Record yang kedua tetep gak bisa. Solusinya gimana mas?
+Terimakasih 
+Ramadhan mengatakan 25 Juni 2016 pada 15:45 permisi mas
+kalau domainnya sudah aktif, perlu didaftarkan ke google analytics lagi ga? trima kasih 
+Mas Sugeng mengatakan 29 Juni 2016 pada 22:22 Nggak perlu, cukup diedit aja alamat domainnya di pengaturan google analytics. 
+Sharedkey mengatakan 9 Juli 2016 pada 23:59 ternyata ngga perlu ya .. makasih mas info nya 😀 
+firmansyah mengatakan 26 Juni 2016 pada 19:35 Mas mau tanya, saya udah coba sesuai cara diatas, lalu saya tunggu 1×24 jam dan masih belum bisa di akses. Kemudian saya hapus semua Manage DNS yang ada di rumah web, niatnya mau di ulangi lagi. Salahnya saya lupa tidak catat 2 DNS yang ada di blogger nya. pertanyaannya, bagaimana cara daftar ulangnya lagi mas.. Tolong di bales ya Mas Sugeng yang baik hati 🙂 
+Mas Sugeng mengatakan 29 Juni 2016 pada 22:29 Domainnya sudah berhasil dipasang apa belum? kalau sudah 2 kode DNS khusus-nya nggak perlu dipasang, soalnya itu cuma dipakai buat verifikasi. 
+JONI LABARUS mengatakan 27 Juni 2016 pada 04:27 mas ane mau nanya.
+kemaren sempet nyoba hosting gratis dari idhostinger. nah karena domain ane ini dari enom, maka domain ane transfer sesuai prosedur.. terus kemaren ane males make wordpress karena kaga ngerti, dan memutuskan untuk kembali ke blogger … padadahal hosting udah ane apus dan domain ane custom di blogspot. tapi kok setelah ane buka malah ketemu halaman 404 nye idhostinger ?? Kesannya nyangkut gitu mas, padahal di blogger udah sukses. 
+Mas Sugeng mengatakan 29 Juni 2016 pada 22:32 Mungkin karena pengaruh cache di browser, atau domainnya masih dalam proses propagasi 
+Tips Droid Max mengatakan 28 Juni 2016 pada 04:09 mas sebelumnya kan blog ane dibanned nggak bisa dipasangin GA, nah setelah ganti domain ke TLD apakah pengaruhnya banned GA nya masih ada?? 
+Mas Sugeng mengatakan 29 Juni 2016 pada 22:50 Banned-nya menghilang karena alamatnya sudah beda. Cuma mungkin beresiko dibanned lagi. 
+ANdi mengatakan 29 Juni 2016 pada 00:55 Kayaknye mesti ditambah info perihal waktu tunggu sampai blognya bener-bener di direct deh, mas. Soalnya ane sampai stgh jam baru berhasil nge-save, namun saat mau akses main domain harus nunggu lebih lama. Hehehe… Btw, thnks ya infonya. 
+Ahmad Alfan T mengatakan 29 Juni 2016 pada 09:22 Mas sugeng, alhamdulillah kemarin setelah saya baca postingan mas sugeng soal custom domain ini, hari ini saya langsung order ke rumahweb.com, prosesnya cepat mas dan gak mahal. Maturnuwun tutorialnya mas sangat jelas dan berhasil, url yang lama saya bagikeunlagi.blogspot.com sekarang jadi lebih simple bagikeunlagi.com. Ohya mas, custom domain berpengaruh engga ya kalau kita mau ajuin web kita ke google adsense? 
+Mas Sugeng mengatakan 29 Juni 2016 pada 22:49 Nggak perbengaruh. Kalau sudah pakai domain sendiri, daftar AdSensenya harus langsung lewat http://www.google.com/adsense 
+HariSejati mengatakan 29 Juni 2016 pada 19:26 Yang saya pengen tanya apakah subdomain awal kita sblum daftar akan terhapus dan buat yang baru saat perpanjangan domain TLD tidak diperpanjang? 
+Mas Sugeng mengatakan 29 Juni 2016 pada 22:46 Mohon maaf pertanyaannya agak sedikit membingungkan. 
+Sharedkey mengatakan 9 Juli 2016 pada 23:57 mungkin maksudnya subdomain awal, misal blog.blogspot.com setelah membeli/parkir domain blog.com. dan jika domain expired tidak diperpanjang … maka subdomain blog.blogspot.com masih ada mas, ini kan domain bawaan dr blogger .. 😀 
+teguh mengatakan 1 Juli 2016 pada 08:36 mas sugeng mohon tanya, saya sudah daftar dan buat nama blog reynand.my.id
+udah konfirm pembayaran kemarin pagi
+sekarang kok belom bisa digunakan ato belum aktif ya mas…. apa masih nunggu lagi ya mas sugeng… sekarang 55.000 hihihi
+oiya kalau sudah pake paketan ini trus nambah buat webhosting yg paling murah itu bisa ya? hehehe
+terima kasih. 
+Mas Sugeng mengatakan 12 Juli 2016 pada 17:37 Coba tanyakan langsung ke pihak rumahweb. 
+Bonaventura Ega mengatakan 1 Juli 2016 pada 12:30 Mas, saya sudah mengikuti cara Mas Sugeng dari awal. Tapi mengapa di blogger masih tertulis ‘kesalahan 14’? Padahal saya sudah benar dalam memasukkan kode nya. Ada solusi mas Sugeng? 
+Mas Sugeng mengatakan 12 Juli 2016 pada 10:48 Ditunggu sekitar 24 jam, setelah itu coba masukan ulang alamat domainnya. 
+indra mengatakan 3 Juli 2016 pada 01:16 Maaf mas sugeng beda topik. mas, kalau redirect domain ke domain biasanya memerlukan beberapa jm ya? Untuk ke domain yang di redirect ? 
+Mas Sugeng mengatakan 12 Juli 2016 pada 17:41 24 Jam 
+Adri Baraka mengatakan 4 Juli 2016 pada 20:12 Saya belum bisa mengakses tanpa www, tapi kalau pakai www bisa dibuka. Kira-kira kenapa, ya ? 
+Mas Sugeng mengatakan 12 Juli 2016 pada 10:49 Pastikan langlah nomor 16 sudah dilakukan. 
+indra mengatakan 8 Juli 2016 pada 00:08 Mas, maaf ngeles dikit, kalau redirect domain ke domain bisa ga ya ? 
+Mas Sugeng mengatakan 12 Juli 2016 pada 10:40 Sudah pasti bisa 
+Ashland mengatakan 8 Juli 2016 pada 17:50 mas.. kenapa ya kalau saya pakai domain sub (www) ketika masuk ke halaman template loading terus gk bisa berhenti sampe akhirnya browser jadi freeze.. tapi kalau domain nya di cabut atau pakai sub lain selain www bisa edit template nya… hal yang sama juga terjadi pada preview post sebelum di publikasi..
+mohon solusinya mas sugeng 🙂 
+Mas Sugeng mengatakan 15 Juli 2016 pada 01:19 Mohon maaf saya kurang tahu penyebabnya mas. 
+Ardi mengatakan 10 Juli 2016 pada 00:47 Mas setelah melakukn custom domain apakah alamat url blog kita di webmaster dihapus atau tinggal di tambah lagi 
+Mas Sugeng mengatakan 13 Juli 2016 pada 20:09 Tambah aja lagi yang baru, yang lama nggak perlu dihapus. 
+indora mengatakan 11 Juli 2016 pada 08:25 apa kelebihan rumahweb.com gan, ane mau tanya2 dulu.. siapa tau mau pindah penyewa domain xixixix 
+kapalomen mengatakan 11 Juli 2016 pada 13:06 mas, kalo baru di update stitus kitaa bakalan down sebentar ya mas..
+soalnya situs saya malah error ketika abis costom domain 
+Mas Sugeng mengatakan 13 Juli 2016 pada 20:17 Iya, harus ditunggu sekitar 24 jam sampai bisa diakses dengan lancar. 
+teguh mengatakan 13 Juli 2016 pada 10:39 di step 4 muncul kayak gini mas :
+Kami tidak dapat memverifikasi otoritas Anda untuk domain ini. Kesalahan 14.
+setelah saya simpan tidak mau ganti tu alamatq….
+sudah loading … menyimpan…. tetapi tidak ganti alamat web nya
+mohon pencerahannya. thx mas sugeng 
+Mas Sugeng mengatakan 13 Juli 2016 pada 20:13 Coba ditunggu sekitar 24 jam, setelah itu coba masukan lagi alamat domainnya. 
+fakhrul mengatakan 15 Juli 2016 pada 01:35 Sya punya cuman bank BRI, disitu kan pembayaran pake transfer bank gk ada bank BRI, gmna solusinya mas???
+Mohon bantuannya. 
+Mas Sugeng mengatakan 15 Juli 2016 pada 01:37 Kan bisa transfer antar bank. 
+Radnanum mengatakan 16 Juli 2016 pada 12:06 Mas, cara ngilangin www nya gimana ya? kan kaya punya mas gini tampilannya cuma Sugeng.id bukan www.Sugeng.id ane juga pengen kaya gini mas, biar ga begitu sumpek pas ngeliat url nya gara2 www. 
+Mas Sugeng mengatakan 16 Juli 2016 pada 15:27 Nggak bisa dihilangkan. Blog ini tidak menggunakan blogger/blogspot. 
+rifkyrevenges mengatakan 23 Juli 2016 pada 11:37 bang ,. minta pencerahan 2 pertayaan ini bang
+1. kalau blogger saya ga di terima2 di adsense , trus saya pasang domain .com di bolgger saya , kmudian  saya daftarkan domain .com itu ke adsense apa bisa di terima ?? 2. kalau saya buat hotingan web baru dengan domain .com , dan konten nya sama dengan ini blogger saya yg ga di terima adsense , apa bisa bisa di terima hostingan .com saya di adsense ?? 
+Mas Sugeng mengatakan 23 Juli 2016 pada 19:15 1. Bisa didaftarkan lagi cuma masalah diterima atau tidak saya nggak tahu.
+2. Bisa didaftarkan lagi cuma masalah diterima atau tidak saya nggak tahu. 
+Bambang Rahardjo mengatakan 27 Juli 2016 pada 06:19 Thanks banget ya mas untuk tutorialnya, sangat bermanfaat tentunya.
+Lumayan banget nih buat ngirit ongkos hosting, btw apakah ada pengaruh custom domain di SERP? 
+dnata mengatakan 31 Juli 2016 pada 11:46 mas mau nanya nih, saya udah ikuti semua stepnya, dan berhasil, tapi kenapa pas saya mau verifikasi di webmastertools pake tag HTML ga bisa mas.
+kata google sih ga bias melacak server blog saya. 1. apa ada hubungannya dengan layanan penyedia domain?
+2. gimana cara mengatasinya? thanks mas. 
+Mas Sugeng mengatakan 1 Agustus 2016 pada 11:29 Mungkin bisa dicoba menggunakan metode verifikasi yang lain. Penjelasan detailnya bisa dibica di sini : https://support.google.com/webmasters/answer/35179?hl=id 
+Reza Anugrah mengatakan 31 Juli 2016 pada 16:16 Mas Sugeng,
+Bagaimana ya cara memasang HTTPS di blogger? HTTPS di blogger otomatis ter-lock tidak direct karena saya memakai custom domain.
+Terimakasih atas perhatiannya mas 
+Mas Sugeng mengatakan 1 Agustus 2016 pada 11:23 Fitur https di blogger memang tidak bisa diaktifkan untuk blog yang sudah custom domain. 
+Reza Anugrah mengatakan 2 Agustus 2016 pada 15:17 Oh iya, kan 2 hari yang lalu saya sudah ada custom domain nah kemarin untuk beberapa saat blog saya sudah bisa diakses dengan custom domain di browser tapi sekarang gabisa diakses “This site can’t be reached.”
+Harus sabar menunggu lagi ya mas? atau ada solusinya?
+Terimakasih banyak. 
+i made sanuanca feres mengatakan 24 Agustus 2016 pada 15:46 coba untuk urlnya jangan pakai https mas, langsung ke nama domainya aja soalnya kalau di awali https:// sperti itu biasanya emang ga ke direct alias ada tulisan firewall proxy gitu sperti saya. kalau pakainya http atau www dan non www bisa mas lancar semoga membantu 
+Muhammad Hasanuddin mengatakan 1 Agustus 2016 pada 14:10 Maaf mas sugeng, saya mau tanya.. seumpama saya mendaftar kan blog saya yang domainnya masih blogspot. trus diterima! setelah itu saya mau beli domain non hosted. apakah blog saya harus daftar adsense lagi ya! sebelumnya terimakasih mas 
+Mas Sugeng mengatakan 1 Agustus 2016 pada 23:20 Maksudnya mendaftar apa mas? AdSense? Kalau mendaftar AdSense pakai blogspot berarti nanti akunnya harus diuprade supaya jadi non-hosted supaya iklannya bisa dipasang di domain sendiri. 
+Sofyan mengatakan 5 Agustus 2016 pada 21:27 Thanks, tapi mau nanya nih mas : saya perhatikan ada 2 tampilan yg terlihat di kolom url browser. Ada yg tampil sperti punya msa sugeng http://sugeng.id (tanpa www) dan ada yang tampil misalnya www.suheng.id kok bisa ya mas spreti itu ??? 
+yogaputra mengatakan 8 Agustus 2016 pada 19:39 thank mas sugeng…alhamdulilah sekarang sudah jadi domain TLD berkat tutor dari mas sugeng.. sempat ada kendala ternyata mas sugeng ada yang salah katanya suruh ditunggung 24 jam ee punya ane cuma 1 jam udah bisa mas… sekali lagi thank tutornya mas 
+Andrial Safitra mengatakan 9 Agustus 2016 pada 21:49 mas sungeng, punya saya kenapa belum bisa di akses ya ? saya telah mengikuti intruksi dengan benar mas, seharus nya jam 20.30 tadi tepat 24 jam. Tapi sampai sekarang belum aktif mas.
+Mohon pencerahan mas… 
+Astrid Naning Yuana mengatakan 10 Agustus 2016 pada 08:53 100% work!!!
+Terima kasih mqz Sugeng, sangat membantu (y)
+Semoga ilmunya bermanfaat.. 
+Debby mengatakan 10 Agustus 2016 pada 10:41 Hiy mas sugeng. Terima kasih atas informasinya. Saya punya blog warisanketampanan.blogspot.co.id. sudah ada beberapa postingan dan penayangannya lumayan banyak. nah saya coba mendaftarkannya ke google Adsense, namun ternyata tidak bisa karena saya sudah terlebih dahulu mendaftar AdSense lewat akun youtube saya. di adsense nya ada notifikasi bahwa adsense nya hanya bisa di tampilkan ke youtube, kalo ada site lain bisa di daftarkan untuk di monetize. Namun untuk akun blogspot saya td tidak bisa. Pertanyaan saya:
+1. Apakah saya harus membuat blog non hosted?
+2. Misalnya saya telah membuat blog yg baru dengan .com, id dll, apakah postingan saya yang di blogspot itu bisa di pindah ke akun blog yang baru?
+3. Jika tidak bisa, apakah saya harus mengetik ulang postingan saya tersebut?
+4. Apakah nanti ketika saya mendaftarkan ke adsense kembali akun saya akan di banned karena mereka melihat postingan saya sebelumnya di blogspot tersebut? 
+Mas Sugeng mengatakan 10 Agustus 2016 pada 12:25 Nggak perlu pindah atau bikin blog baru, blog yang ddi blogpsot tinggal diganti aja dengan domain sendiri. Setelah itu tinggal ada site di akun AdSense-nya menggunakan alamat blog yang baru. 
+tina mengatakan 11 Agustus 2016 pada 08:17 udah jalanin semua langkah2nya,
+kok server not found mas Ugeng?? gimana nih? 
+intanasara mengatakan 11 Agustus 2016 pada 12:23 mas Sugeng, makasih banget infonya bermanfaat. ada tempat lain yang lebih murah untuk domain .com ngga mas? oh iya, saya mau tanya, apa ada jasa untuk membuat template blog di blogspot menjadi SEO friendly? jujur saja saya baru belajar dan kadang informasi yang saya dapat dari tempat lain tidak sesuai dengan html yang ada di template blog saya, jadi saya kesulitan membuat h1 sampai selanjutnya. mohon bantuannya mas 🙂 
+fashionidea mengatakan 13 Agustus 2016 pada 10:20 Artikel yg sangat membantu saya mas sugeng..karena saya baru mau masuk ke blogger..sebelumnya sya mendalami wordpress… terima kasih artikelnya mas sugeng.. 
+Ribuan Cara mengatakan 14 Agustus 2016 pada 06:11 ane pake dotcom obralan, ada yg lagi promo 3.99 dolar per taon (ga tau taon berikutnya berapa). buat yang lagi belajar kyk ane sebaiknya diperhitungkan juga harganya, jgn sampe domain yg dibeli mahal malah ga jelas juntrungannya… sing penting konsisten blogging, hehehe. makasih BL-nya mastah sugeng 
+Ryanda mengatakan 14 Agustus 2016 pada 13:52 Saya sudah coba semua caranya tapi muncul tulisan :
+Kami tidak dapat memverifikasi otoritas Anda untuk domain ini. Kesalahan 14. 
+Mas Sugeng mengatakan 16 Agustus 2016 pada 14:24 Tunggu sekitar 24jam setelah itu coba lagi. 
+Vance Lobo mengatakan 16 Agustus 2016 pada 08:12 Siipp.. makasih mass..
+Sekali coba langsung jadi.. Joss tutorial nya
+oiya mas, buat ganti ikon Blogger di atas itu gimana ya ??
+punya ente kan udah diganti jadi huruf S tuh..
+makasih mas.. 🙂 
+Mas Sugeng mengatakan 16 Agustus 2016 pada 14:22 Silakan dibaca di sini : http://sugeng.id/tutorial-blogger/#Cara_memasang_favicon 
+Tubagus mengatakan 17 Agustus 2016 pada 13:27 mas, maaf saya mau tanya. saya pemula, saya ingin nge blog apa yang harus di lakukan, tulis blog dulu, apa beli domain dulu? trims 
+Mas Sugeng mengatakan 17 Agustus 2016 pada 16:21 Nulis dulu, untuk soal domain bisa diurus belakangan. 
+Zaenal mengatakan 17 Agustus 2016 pada 14:44 mas sugeng… saya habis upgrade blogspot ke TLD. yang TLD sudah saya daftarkan ke webmaster dan bing. yang ingin saya tanyakan backlink dari blogspot yang lama apa bisa pindah ke domain TLD saya yang baru. kalau bisa gimana langkah-langkahnya? trims 
+Mas Sugeng mengatakan 17 Agustus 2016 pada 16:23 Untuk backlinknya akan otomatis dialihkan ke alamat yang baru. 
+baba mengatakan 17 Agustus 2016 pada 20:51 mas kalo servernya diblogspot Amerika (US), Indonesia (IIX) atau Singapura (SG) yah mas?saya pake idhostinger ngaruh engga mas kalo beli di idhostinger 
+Anton mengatakan 19 Agustus 2016 pada 17:03 mas mau tanya untuk edit sitmap di blogspot bagaimana ya? 
+Mas Sugeng mengatakan 19 Agustus 2016 pada 17:04 Untuk sitemap nggak bisa diedit mas. 
+Egi mengatakan 22 Agustus 2016 pada 22:46 Mas sugeng , terima kasih buat tutornya
+saya lagi cari cara merubah domain nih ,
+nyasar di blog nya mas sugen ^_^ 
+irfan mengatakan 24 Agustus 2016 pada 10:25 mas sugeng
+seperinya sy melakuka kesalahan nih
+saya hapus dns yg berisi code type CNAME clientzone
+teru saya coba add record ulang dengan melihat kode di blogger tapi sdh gak bisa mas
+mohon solusi, maklum newbie nih mas 
+i made sanuanca feres mengatakan 24 Agustus 2016 pada 15:41 makasi mas sugeng atas informasinya sangat lengkap dan saya sudah mengganti alamat domain saya yang sudah saya beli melalui rumahweb
+nah kemudian yang menjadi pertanyaan saya disini
+apabila kita sudah ganti domain trus untuk url kita di webmaster google itu buat ulang dengan cara manual fetch as google atau bagaimana mas sedangkan url yang sudah terdaftar masih di subdomain blogspot.dan sekarang saya sudah memakai.com apakah saya aadd property baru dan mensubmit artikel ulang atau bagaimana terimakasih
+di tunggu jawabnya agar lebih jelas lagi mas 
+Erlangga mengatakan 26 Agustus 2016 pada 13:44 Terima kasih,
+Ini adalah kali pertama saya custom domain blogspot sendiri
+saya pakai domain .com karena biaya tahunannya murah daripada .id
+tlg langkah yang kurang ditambahkan supaya gak bingung (klik update atau back atau refresh di DNS management). 
+nariyo mengatakan 28 Agustus 2016 pada 08:42 Wah makasih postingan nya mas Sugeng,jadi udah bisa ganti Domain sendiri dari arahan mas Sugeng,.. 
+husain mengatakan 30 Agustus 2016 pada 07:25 Saya lagi cari artikel tentang hosting di blogspot, ketemu artikel mas Sugeng, terima kasih mas tak praktekkan. Selama ini masih sering bikin blog gratisan di blogspot dan WordPress. Terus diberitahu teman klau di blogspot bisa nitip hosting gratis.
+Klau di wordpress apa bisa juga fasilitas hosting gratis mas sugeng. Mas sugeng template website nya ini apa ya jenisnyanya kok bagus, gratis atau premium… heee …. heee klau gratis bisa dibagi link downloadnya. Terima kasih atas responnya, semoga sukses ngeblognya 
+Faqih mengatakan 31 Agustus 2016 pada 09:24 Mas Sugeng, saya beberapa bulan lalu kan sudah upgrade blogspot ke TLD, tapi pakai TLD yang murah dan kurang populer. Tapi sekarang malah ngerasa kurang sreg dengan domain itu dan pengen ganti jadi yang lebih populer seperti COM. Pertanyaan saya, apakah bisa blog yang sudah diganti dengan Domain TLD (saya pakai TOP) itu saya ganti lagi dengan nama domain lainnya?
+Minta pendapat juga, bagaimana nama domain TOP menurut mas Sugeng? bagus apa tidak?
+Terimakasih Mas … 
+Jessy mengatakan 2 September 2016 pada 09:22 Mas, saya mau tanya nih
+kalo saya ubah blogspot saya menjadi [domain].com aja, konten/isi blog saya sebelumnya bakal hilang ga ya?
+Mohon jawabannya, Terimakasih mas^^ 
+Nanien mengatakan 3 September 2016 pada 21:20 Hi Mas Sugeng,
+Salam kenal… Mohon pencerahannya dong Mas 🙂
+Saat ini saya sudah ada domain sendiri di hijaberjourney(dot)com dengan cms blogspot dan bermaksud untuk switch ke wordpress. Saya sudah install WP di cpanel akan tetapi ketika saya mau masuk ke admin wordpress di hijaberjourney(com)/wp-admin/ URL nya kenapa ga jalan ya mas? Keterangannya page not found. Jadi sampai saat ini saya tidak bisa login ke WP admin krn URL nya ga berfungsi. Terima kasih mas 🙂 
+Krista Dedy Prasetiyo mengatakan 6 September 2016 pada 17:15 Yuhuuuuu…..,
+Berhasil Mas Sugeng…,
+Terimakasih, Thank You, Matursuwun Ilmunya….., 🙂 
+Adola mengatakan 10 September 2016 pada 05:27 Gan? Kalo misalnya kita sewa domain dari rumahweb.com apakah disana kita masih perlu koding?
+misalnya pembuatan database, html, css, script, dll?
+Kan semisal blogger/blogspot kan tidak ada koding lagi kita hanya siap pakai..? -Terimakasih Admin Nggak perlu bolak-balik ke blog ini untuk ngecek postingan terbaru, berlangganan aja via email.
